@@ -124,26 +124,6 @@ const Navbar = () => {
                       <li>
                         <a href="index-1.html">Home - Electronics</a>
                       </li>
-                      <li>
-                        <a href="index-2.html">Home - NFT</a>
-                      </li>
-                      <li>
-                        <a href="index-3.html">Home - Fashion</a>
-                      </li>
-                      <li>
-                        <a href="index-4.html">Home - Jewellery</a>
-                      </li>
-                      <li>
-                        <a href="index-5.html">Home - Furniture</a>
-                      </li>
-                      <li>
-                        <a href="index-6.html">Home - Multipurpose</a>
-                      </li>
-                      <li>
-                        <a href="https://new.axilthemes.com/demo/template/etrade-rtl/">
-                          RTL Version
-                        </a>
-                      </li>
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
@@ -214,40 +194,12 @@ const Navbar = () => {
                       <li>
                         <a href="404.html">404 Error</a>
                       </li>
-                      <li>
-                        <a href="typography.html">Typography</a>
-                      </li>
                     </ul>
                   </li>
                   <li>
                     <a href="about-us.html">About</a>
                   </li>
-                  <li className="menu-item-has-children">
-                    <a href="#">Blog</a>
-                    <ul className="axil-submenu">
-                      <li>
-                        <a href="blog.html">Blog List</a>
-                      </li>
-                      <li>
-                        <a href="blog-grid.html">Blog Grid</a>
-                      </li>
-                      <li>
-                        <a href="blog-details.html">Standard Post</a>
-                      </li>
-                      <li>
-                        <a href="blog-gallery.html">Gallery Post</a>
-                      </li>
-                      <li>
-                        <a href="blog-video.html">Video Post</a>
-                      </li>
-                      <li>
-                        <a href="blog-audio.html">Audio Post</a>
-                      </li>
-                      <li>
-                        <a href="blog-quote.html">Quote Post</a>
-                      </li>
-                    </ul>
-                  </li>
+
                   <li>
                     <a href="contact.html">Contact</a>
                   </li>
