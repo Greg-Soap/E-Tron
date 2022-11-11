@@ -11,17 +11,11 @@ import "./assets/css/vendor/magnific-popup.css";
 import "./assets/css/vendor/base.css";
 import "./assets/css/style.min.css";
 //
-
-import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
-import { Footer } from "./Components/Footer";
-
 const App = () => {
   return (
     <>
-      <Navbar />
       <Home />
-      <Footer />
     </>
   );
 };
