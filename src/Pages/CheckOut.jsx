@@ -1,22 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CheckOut = () => {
   return (
     <>
-      <main class="main-wrapper">
-        <div class="axil-single-product-area axil-section-gap pb--0 bg-color-white">
-          <div class="single-product-thumb mb--40">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-7 mb--40">
-                  <div class="row">
-                    <div class="col-lg-10 order-lg-2">
-                      <div class="single-product-thumbnail-wrap zoom-gallery">
-                        <div class="single-product-thumbnail product-large-thumbnail-3 axil-product">
-                          <div class="thumbnail">
+      <main className="main-wrapper">
+        <div className="axil-single-product-area axil-section-gap pb--0 bg-color-white">
+          <div className="single-product-thumb mb--40">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-7 mb--40">
+                  <div className="row">
+                    <div className="col-lg-10 order-lg-2">
+                      <div className="single-product-thumbnail-wrap zoom-gallery">
+                        <div className="single-product-thumbnail product-large-thumbnail-3 axil-product">
+                          <div className="thumbnail">
                             <a
                               href="assets/images/product/product-big-01.png"
-                              class="popup-zoom"
+                              className="popup-zoom"
                             >
                               <img
                                 src="assets/images/product/product-big-01.png"
@@ -24,10 +25,10 @@ const CheckOut = () => {
                               />
                             </a>
                           </div>
-                          <div class="thumbnail">
+                          <div className="thumbnail">
                             <a
                               href="assets/images/product/product-big-02.png"
-                              class="popup-zoom"
+                              className="popup-zoom"
                             >
                               <img
                                 src="assets/images/product/product-big-02.png"
@@ -35,10 +36,10 @@ const CheckOut = () => {
                               />
                             </a>
                           </div>
-                          <div class="thumbnail">
+                          <div className="thumbnail">
                             <a
                               href="assets/images/product/product-big-03.png"
-                              class="popup-zoom"
+                              className="popup-zoom"
                             >
                               <img
                                 src="assets/images/product/product-big-03.png"
@@ -46,10 +47,10 @@ const CheckOut = () => {
                               />
                             </a>
                           </div>
-                          <div class="thumbnail">
+                          <div className="thumbnail">
                             <a
                               href="assets/images/product/product-big-02.png"
-                              class="popup-zoom"
+                              className="popup-zoom"
                             >
                               <img
                                 src="assets/images/product/product-big-02.png"
@@ -58,40 +59,40 @@ const CheckOut = () => {
                             </a>
                           </div>
                         </div>
-                        <div class="label-block">
-                          <div class="product-badget">20% OFF</div>
+                        <div className="label-block">
+                          <div className="product-badget">20% OFF</div>
                         </div>
-                        <div class="product-quick-view position-view">
+                        <div className="product-quick-view position-view">
                           <a
                             href="assets/images/product/product-big-01.png"
-                            class="popup-zoom"
+                            className="popup-zoom"
                           >
-                            <i class="far fa-search-plus"></i>
+                            <i className="far fa-search-plus"></i>
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-2 order-lg-1">
-                      <div class="product-small-thumb-3 small-thumb-wrapper">
-                        <div class="small-thumb-img">
+                    <div className="col-lg-2 order-lg-1">
+                      <div className="product-small-thumb-3 small-thumb-wrapper">
+                        <div className="small-thumb-img">
                           <img
                             src="assets/images/product/product-thumb/thumb-08.png"
                             alt="thumbnail"
                           />
                         </div>
-                        <div class="small-thumb-img">
+                        <div className="small-thumb-img">
                           <img
                             src="assets/images/product/product-thumb/thumb-07.png"
                             alt="thumbnail"
                           />
                         </div>
-                        <div class="small-thumb-img">
+                        <div className="small-thumb-img">
                           <img
                             src="assets/images/product/product-thumb/thumb-09.png"
                             alt="thumbnail"
                           />
                         </div>
-                        <div class="small-thumb-img">
+                        <div className="small-thumb-img">
                           <img
                             src="assets/images/product/product-thumb/thumb-07.png"
                             alt="thumbnail"
@@ -101,70 +102,71 @@ const CheckOut = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-5 mb--40">
-                  <div class="single-product-content">
-                    <div class="inner">
-                      <h2 class="product-title">3D™ wireless headset</h2>
-                      <span class="price-amount">$155.00 - $255.00</span>
-                      <div class="product-rating">
-                        <div class="star-rating">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="far fa-star"></i>
+                <div className="col-lg-5 mb--40">
+                  <div className="single-product-content">
+                    <div className="inner">
+                      <h2 className="product-title">3D™ wireless headset</h2>
+                      <span className="price-amount">$155.00 - $255.00</span>
+                      <div className="product-rating">
+                        <div className="star-rating">
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="fas fa-star"></i>
+                          <i className="far fa-star"></i>
                         </div>
-                        <div class="review-link">
+                        <div className="review-link">
                           <a href="#">
                             (<span>2</span> customer reviews)
                           </a>
                         </div>
                       </div>
-                      <ul class="product-meta">
+                      <ul className="product-meta">
                         <li>
-                          <i class="fal fa-check"></i>In stock
+                          <i className="fal fa-check"></i>In stock
                         </li>
                         <li>
-                          <i class="fal fa-check"></i>Free delivery available
+                          <i className="fal fa-check"></i>Free delivery
+                          available
                         </li>
                         <li>
-                          <i class="fal fa-check"></i>Sales 30% Off Use Code:
-                          MOTIVE30
+                          <i className="fal fa-check"></i>Sales 30% Off Use
+                          Code: MOTIVE30
                         </li>
                       </ul>
-                      <p class="description">
+                      <p className="description">
                         In ornare lorem ut est dapibus, ut tincidunt nisi
                         pretium. Integer ante est, elementum eget magna.
                         Pellentesque sagittis dictum libero, eu dignissim
                         tellus.
                       </p>
 
-                      <div class="product-variations-wrapper">
-                        <div class="product-variation">
-                          <h6 class="title">Colors:</h6>
-                          <div class="color-variant-wrapper">
-                            <ul class="color-variant">
-                              <li class="color-extra-01 active">
+                      <div className="product-variations-wrapper">
+                        <div className="product-variation">
+                          <h6 className="title">Colors:</h6>
+                          <div className="color-variant-wrapper">
+                            <ul className="color-variant">
+                              <li className="color-extra-01 active">
                                 <span>
-                                  <span class="color"></span>
+                                  <span className="color"></span>
                                 </span>
                               </li>
-                              <li class="color-extra-02">
+                              <li className="color-extra-02">
                                 <span>
-                                  <span class="color"></span>
+                                  <span className="color"></span>
                                 </span>
                               </li>
-                              <li class="color-extra-03">
+                              <li className="color-extra-03">
                                 <span>
-                                  <span class="color"></span>
+                                  <span className="color"></span>
                                 </span>
                               </li>
                             </ul>
                           </div>
                         </div>
-                        <div class="product-variation product-size-variation">
-                          <h6 class="title">Size:</h6>
-                          <ul class="range-variant">
+                        <div className="product-variation product-size-variation">
+                          <h6 className="title">Size:</h6>
+                          <ul className="range-variant">
                             <li>xs</li>
                             <li>s</li>
                             <li>m</li>
@@ -174,23 +176,26 @@ const CheckOut = () => {
                         </div>
                       </div>
 
-                      <div class="product-action-wrapper d-flex-center">
-                        <div class="pro-qty">
+                      <div className="product-action-wrapper d-flex-center">
+                        <div className="pro-qty">
                           <input type="text" value="1" />
                         </div>
 
-                        <ul class="product-action d-flex-center mb--0">
-                          <li class="add-to-cart">
-                            <a href="cart.html" class="axil-btn btn-bg-primary">
+                        <ul className="product-action d-flex-center mb--0">
+                          <li className="add-to-cart">
+                            <a
+                              href="cart.html"
+                              className="axil-btn btn-bg-primary"
+                            >
                               Add to Cart
                             </a>
                           </li>
-                          <li class="wishlist">
+                          <li className="wishlist">
                             <a
                               href="wishlist.html"
-                              class="axil-btn wishlist-btn"
+                              className="axil-btn wishlist-btn"
                             >
-                              <i class="far fa-heart"></i>
+                              <i className="far fa-heart"></i>
                             </a>
                           </li>
                         </ul>
@@ -202,12 +207,12 @@ const CheckOut = () => {
             </div>
           </div>
 
-          <div class="woocommerce-tabs wc-tabs-wrapper bg-vista-white">
-            <div class="container">
-              <ul class="nav tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
+          <div className="woocommerce-tabs wc-tabs-wrapper bg-vista-white">
+            <div className="container">
+              <ul className="nav tabs" id="myTab" role="tablist">
+                <li className="nav-item" role="presentation">
                   <a
-                    class="active"
+                    className="active"
                     id="description-tab"
                     data-bs-toggle="tab"
                     href="#description"
@@ -218,7 +223,7 @@ const CheckOut = () => {
                     Description
                   </a>
                 </li>
-                <li class="nav-item " role="presentation">
+                <li className="nav-item " role="presentation">
                   <a
                     id="additional-info-tab"
                     data-bs-toggle="tab"
@@ -230,7 +235,7 @@ const CheckOut = () => {
                     Additional Information
                   </a>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li className="nav-item" role="presentation">
                   <a
                     id="reviews-tab"
                     data-bs-toggle="tab"
@@ -243,18 +248,18 @@ const CheckOut = () => {
                   </a>
                 </li>
               </ul>
-              <div class="tab-content" id="myTabContent">
+              <div className="tab-content" id="myTabContent">
                 <div
-                  class="tab-pane fade show active"
+                  className="tab-pane fade show active"
                   id="description"
                   role="tabpanel"
                   aria-labelledby="description-tab"
                 >
-                  <div class="product-desc-wrapper">
-                    <div class="row">
-                      <div class="col-lg-6 mb--30">
-                        <div class="single-desc">
-                          <h5 class="title">Specifications:</h5>
+                  <div className="product-desc-wrapper">
+                    <div className="row">
+                      <div className="col-lg-6 mb--30">
+                        <div className="single-desc">
+                          <h5 className="title">Specifications:</h5>
                           <p>
                             We’ve created a full-stack structure for our working
                             workflow processes, were from the funny the century
@@ -264,9 +269,9 @@ const CheckOut = () => {
                           </p>
                         </div>
                       </div>
-                      <div class="col-lg-6 mb--30">
-                        <div class="single-desc">
-                          <h5 class="title">Care & Maintenance:</h5>
+                      <div className="col-lg-6 mb--30">
+                        <div className="single-desc">
+                          <h5 className="title">Care & Maintenance:</h5>
                           <p>
                             Use warm water to describe us as a product team that
                             creates amazing UI/UX experiences, by crafting
@@ -275,11 +280,11 @@ const CheckOut = () => {
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <ul class="pro-des-features">
-                          <li class="single-features">
-                            <div class="icon">
+                    <div className="row">
+                      <div className="col-lg-12">
+                        <ul className="pro-des-features">
+                          <li className="single-features">
+                            <div className="icon">
                               <img
                                 src="assets/images/product/product-thumb/icon-3.png"
                                 alt="icon"
@@ -287,8 +292,8 @@ const CheckOut = () => {
                             </div>
                             Easy Returns
                           </li>
-                          <li class="single-features">
-                            <div class="icon">
+                          <li className="single-features">
+                            <div className="icon">
                               <img
                                 src="assets/images/product/product-thumb/icon-2.png"
                                 alt="icon"
@@ -296,8 +301,8 @@ const CheckOut = () => {
                             </div>
                             Quality Service
                           </li>
-                          <li class="single-features">
-                            <div class="icon">
+                          <li className="single-features">
+                            <div className="icon">
                               <img
                                 src="assets/images/product/product-thumb/icon-1.png"
                                 alt="icon"
@@ -311,13 +316,13 @@ const CheckOut = () => {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="additional-info"
                   role="tabpanel"
                   aria-labelledby="additional-info-tab"
                 >
-                  <div class="product-additional-info">
-                    <div class="table-responsive">
+                  <div className="product-additional-info">
+                    <div className="table-responsive">
                       <table>
                         <tbody>
                           <tr>
@@ -370,57 +375,57 @@ const CheckOut = () => {
                   </div>
                 </div>
                 <div
-                  class="tab-pane fade"
+                  className="tab-pane fade"
                   id="reviews"
                   role="tabpanel"
                   aria-labelledby="reviews-tab"
                 >
-                  <div class="reviews-wrapper">
-                    <div class="row">
-                      <div class="col-lg-6 mb--40">
-                        <div class="axil-comment-area pro-desc-commnet-area">
-                          <h5 class="title">01 Review for this product</h5>
-                          <ul class="comment-list">
-                            <li class="comment">
-                              <div class="comment-body">
-                                <div class="single-comment">
-                                  <div class="comment-img">
+                  <div className="reviews-wrapper">
+                    <div className="row">
+                      <div className="col-lg-6 mb--40">
+                        <div className="axil-comment-area pro-desc-commnet-area">
+                          <h5 className="title">01 Review for this product</h5>
+                          <ul className="comment-list">
+                            <li className="comment">
+                              <div className="comment-body">
+                                <div className="single-comment">
+                                  <div className="comment-img">
                                     <img
                                       src="assets/images/blog/author-image-4.png"
                                       alt="Author Images"
                                     />
                                   </div>
-                                  <div class="comment-inner">
-                                    <h6 class="commenter">
+                                  <div className="comment-inner">
+                                    <h6 className="commenter">
                                       <a
-                                        class="hover-flip-item-wrapper"
+                                        className="hover-flip-item-wrapper"
                                         href="#"
                                       >
-                                        <span class="hover-flip-item">
+                                        <span className="hover-flip-item">
                                           <span data-text="Cameron Williamson">
                                             Eleanor Pena
                                           </span>
                                         </span>
                                       </a>
-                                      <span class="commenter-rating ratiing-four-star">
+                                      <span className="commenter-rating ratiing-four-star">
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star empty-rating"></i>
+                                          <i className="fas fa-star empty-rating"></i>
                                         </a>
                                       </span>
                                     </h6>
-                                    <div class="comment-text">
+                                    <div className="comment-text">
                                       <p>
                                         “We’ve created a full-stack structure
                                         for our working workflow processes, were
@@ -433,46 +438,46 @@ const CheckOut = () => {
                               </div>
                             </li>
 
-                            <li class="comment">
-                              <div class="comment-body">
-                                <div class="single-comment">
-                                  <div class="comment-img">
+                            <li className="comment">
+                              <div className="comment-body">
+                                <div className="single-comment">
+                                  <div className="comment-img">
                                     <img
                                       src="assets/images/blog/author-image-4.png"
                                       alt="Author Images"
                                     />
                                   </div>
-                                  <div class="comment-inner">
-                                    <h6 class="commenter">
+                                  <div className="comment-inner">
+                                    <h6 className="commenter">
                                       <a
-                                        class="hover-flip-item-wrapper"
+                                        className="hover-flip-item-wrapper"
                                         href="#"
                                       >
-                                        <span class="hover-flip-item">
+                                        <span className="hover-flip-item">
                                           <span data-text="Rahabi Khan">
                                             Courtney Henry
                                           </span>
                                         </span>
                                       </a>
-                                      <span class="commenter-rating ratiing-four-star">
+                                      <span className="commenter-rating ratiing-four-star">
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                       </span>
                                     </h6>
-                                    <div class="comment-text">
+                                    <div className="comment-text">
                                       <p>
                                         “We’ve created a full-stack structure
                                         for our working workflow processes, were
@@ -485,46 +490,46 @@ const CheckOut = () => {
                               </div>
                             </li>
 
-                            <li class="comment">
-                              <div class="comment-body">
-                                <div class="single-comment">
-                                  <div class="comment-img">
+                            <li className="comment">
+                              <div className="comment-body">
+                                <div className="single-comment">
+                                  <div className="comment-img">
                                     <img
                                       src="assets/images/blog/author-image-5.png"
                                       alt="Author Images"
                                     />
                                   </div>
-                                  <div class="comment-inner">
-                                    <h6 class="commenter">
+                                  <div className="comment-inner">
+                                    <h6 className="commenter">
                                       <a
-                                        class="hover-flip-item-wrapper"
+                                        className="hover-flip-item-wrapper"
                                         href="#"
                                       >
-                                        <span class="hover-flip-item">
+                                        <span className="hover-flip-item">
                                           <span data-text="Rahabi Khan">
                                             Devon Lane
                                           </span>
                                         </span>
                                       </a>
-                                      <span class="commenter-rating ratiing-four-star">
+                                      <span className="commenter-rating ratiing-four-star">
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                         <a href="#">
-                                          <i class="fas fa-star"></i>
+                                          <i className="fas fa-star"></i>
                                         </a>
                                       </span>
                                     </h6>
-                                    <div class="comment-text">
+                                    <div className="comment-text">
                                       <p>
                                         “We’ve created a full-stack structure
                                         for our working workflow processes, were
@@ -539,38 +544,38 @@ const CheckOut = () => {
                           </ul>
                         </div>
                       </div>
-                      <div class="col-lg-6 mb--40">
-                        <div class="comment-respond pro-des-commend-respond mt--0">
-                          <h5 class="title mb--30">Add a Review</h5>
+                      <div className="col-lg-6 mb--40">
+                        <div className="comment-respond pro-des-commend-respond mt--0">
+                          <h5 className="title mb--30">Add a Review</h5>
                           <p>
                             Your email address will not be published. Required
                             fields are marked *
                           </p>
-                          <div class="rating-wrapper d-flex-center mb--40">
-                            Your Rating <span class="require">*</span>
-                            <div class="reating-inner ml--20">
+                          <div className="rating-wrapper d-flex-center mb--40">
+                            Your Rating <span className="require">*</span>
+                            <div className="reating-inner ml--20">
                               <a href="#">
-                                <i class="fal fa-star"></i>
+                                <i className="fal fa-star"></i>
                               </a>
                               <a href="#">
-                                <i class="fal fa-star"></i>
+                                <i className="fal fa-star"></i>
                               </a>
                               <a href="#">
-                                <i class="fal fa-star"></i>
+                                <i className="fal fa-star"></i>
                               </a>
                               <a href="#">
-                                <i class="fal fa-star"></i>
+                                <i className="fal fa-star"></i>
                               </a>
                               <a href="#">
-                                <i class="fal fa-star"></i>
+                                <i className="fal fa-star"></i>
                               </a>
                             </div>
                           </div>
 
                           <form action="#">
-                            <div class="row">
-                              <div class="col-12">
-                                <div class="form-group">
+                            <div className="row">
+                              <div className="col-12">
+                                <div className="form-group">
                                   <label>Other Notes (optional)</label>
                                   <textarea
                                     name="message"
@@ -578,28 +583,28 @@ const CheckOut = () => {
                                   ></textarea>
                                 </div>
                               </div>
-                              <div class="col-lg-6 col-md-6 col-12">
-                                <div class="form-group">
+                              <div className="col-lg-6 col-md-6 col-12">
+                                <div className="form-group">
                                   <label>
-                                    Name <span class="require">*</span>
+                                    Name <span className="require">*</span>
                                   </label>
                                   <input id="name" type="text" />
                                 </div>
                               </div>
-                              <div class="col-lg-6 col-md-6 col-12">
-                                <div class="form-group">
+                              <div className="col-lg-6 col-md-6 col-12">
+                                <div className="form-group">
                                   <label>
-                                    Email <span class="require">*</span>{" "}
+                                    Email <span className="require">*</span>{" "}
                                   </label>
                                   <input id="email" type="email" />
                                 </div>
                               </div>
-                              <div class="col-lg-12">
-                                <div class="form-submit">
+                              <div className="col-lg-12">
+                                <div className="form-submit">
                                   <button
                                     type="submit"
                                     id="submit"
-                                    class="axil-btn btn-bg-primary w-auto"
+                                    className="axil-btn btn-bg-primary w-auto"
                                   >
                                     Submit Comment
                                   </button>
@@ -616,73 +621,73 @@ const CheckOut = () => {
             </div>
           </div>
         </div>
-        <div class="axil-product-area bg-color-white axil-section-gap pb--50 pb_sm--30">
-          <div class="container">
-            <div class="section-title-wrapper">
-              <span class="title-highlighter highlighter-primary">
-                <i class="far fa-shopping-basket"></i> Your Recently
+        <div className="axil-product-area bg-color-white axil-section-gap pb--50 pb_sm--30">
+          <div className="container">
+            <div className="section-title-wrapper">
+              <span className="title-highlighter highlighter-primary">
+                <i className="far fa-shopping-basket"></i> Your Recently
               </span>
-              <h2 class="title">Viewed Items</h2>
+              <h2 className="title">Viewed Items</h2>
             </div>
-            <div class="recent-product-activation slick-layout-wrapper--15 axil-slick-arrow arrow-top-slide">
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+            <div className="recent-product-activation slick-layout-wrapper--15 axil-slick-arrow arrow-top-slide">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-01.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">20% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">20% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">3D™ wireless headset</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">3D™ wireless headset</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$30</span>
-                        <span class="price current-price">$30</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$30</span>
+                        <span className="price current-price">$30</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -692,64 +697,64 @@ const CheckOut = () => {
                 </div>
               </div>
 
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-02.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">40% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">40% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">Media remote</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">Media remote</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$80</span>
-                        <span class="price current-price">$50</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$80</span>
+                        <span className="price current-price">$50</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -759,64 +764,64 @@ const CheckOut = () => {
                 </div>
               </div>
 
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-03.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">30% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">30% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">HD camera</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">HD camera</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$60</span>
-                        <span class="price current-price">$45</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$60</span>
+                        <span className="price current-price">$45</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -826,64 +831,64 @@ const CheckOut = () => {
                 </div>
               </div>
 
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-04.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">50% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">50% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">PS Remote Control</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">PS Remote Control</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$70</span>
-                        <span class="price current-price">$35</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$70</span>
+                        <span className="price current-price">$35</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -893,64 +898,64 @@ const CheckOut = () => {
                 </div>
               </div>
 
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-05.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">25% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">25% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">PS Remote Control</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">PS Remote Control</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$50</span>
-                        <span class="price current-price">$38</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$50</span>
+                        <span className="price current-price">$38</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -960,64 +965,64 @@ const CheckOut = () => {
                 </div>
               </div>
 
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-03.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">30% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">30% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">HD camera</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">HD camera</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$60</span>
-                        <span class="price current-price">$45</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$60</span>
+                        <span className="price current-price">$45</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -1027,64 +1032,64 @@ const CheckOut = () => {
                 </div>
               </div>
 
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-04.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">50% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">50% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">PS Remote Control</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">PS Remote Control</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$70</span>
-                        <span class="price current-price">$35</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$70</span>
+                        <span className="price current-price">$35</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -1093,64 +1098,64 @@ const CheckOut = () => {
                   </div>
                 </div>
               </div>
-              <div class="slick-single-layout">
-                <div class="axil-product">
-                  <div class="thumbnail">
-                    <a href="single-product.html">
+              <div className="slick-single-layout">
+                <div className="axil-product">
+                  <div className="thumbnail">
+                    <Link to="/SingleProduct">
                       <img
                         src="assets/images/product/electric/product-05.png"
                         alt="Product Images"
                       />
-                    </a>
-                    <div class="label-block label-right">
-                      <div class="product-badget">25% OFF</div>
+                    </Link>
+                    <div className="label-block label-right">
+                      <div className="product-badget">25% OFF</div>
                     </div>
-                    <div class="product-hover-action">
-                      <ul class="cart-action">
-                        <li class="wishlist">
-                          <a href="wishlist.html">
-                            <i class="far fa-heart"></i>
-                          </a>
+                    <div className="product-hover-action">
+                      <ul className="cart-action">
+                        <li className="wishlist">
+                          <Link to="/Wishlist">
+                            <i className="far fa-heart"></i>
+                          </Link>
                         </li>
-                        <li class="select-option">
+                        <li className="select-option">
                           <a href="cart.html">Add to Cart</a>
                         </li>
-                        <li class="quickview">
+                        <li className="quickview">
                           <a
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#quick-view-modal"
                           >
-                            <i class="far fa-eye"></i>
+                            <i className="far fa-eye"></i>
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="product-content">
-                    <div class="inner">
-                      <h5 class="title">
-                        <a href="single-product.html">PS5 Remote Control</a>
+                  <div className="product-content">
+                    <div className="inner">
+                      <h5 className="title">
+                        <Link to="/SingleProduct">PS5 Remote Control</Link>
                       </h5>
-                      <div class="product-price-variant">
-                        <span class="price old-price">$50</span>
-                        <span class="price current-price">$38</span>
+                      <div className="product-price-variant">
+                        <span className="price old-price">$50</span>
+                        <span className="price current-price">$38</span>
                       </div>
-                      <div class="color-variant-wrapper">
-                        <ul class="color-variant">
-                          <li class="color-extra-01 active">
+                      <div className="color-variant-wrapper">
+                        <ul className="color-variant">
+                          <li className="color-extra-01 active">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-02">
+                          <li className="color-extra-02">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
-                          <li class="color-extra-03">
+                          <li className="color-extra-03">
                             <span>
-                              <span class="color"></span>
+                              <span className="color"></span>
                             </span>
                           </li>
                         </ul>
@@ -1162,19 +1167,19 @@ const CheckOut = () => {
             </div>
           </div>
         </div>
-        <div class="axil-newsletter-area axil-section-gap pt--0">
-          <div class="container">
-            <div class="etrade-newsletter-wrapper bg_image bg_image--5">
-              <div class="newsletter-content">
-                <span class="title-highlighter highlighter-primary2">
-                  <i class="fas fa-envelope-open"></i>Newsletter
+        <div className="axil-newsletter-area axil-section-gap pt--0">
+          <div className="container">
+            <div className="etrade-newsletter-wrapper bg_image bg_image--5">
+              <div className="newsletter-content">
+                <span className="title-highlighter highlighter-primary2">
+                  <i className="fas fa-envelope-open"></i>Newsletter
                 </span>
-                <h2 class="title mb--40 mb_sm--30">Get weekly update</h2>
-                <div class="input-group newsletter-form">
-                  <div class="position-relative newsletter-inner mb--15">
+                <h2 className="title mb--40 mb_sm--30">Get weekly update</h2>
+                <div className="input-group newsletter-form">
+                  <div className="position-relative newsletter-inner mb--15">
                     <input placeholder="example@gmail.com" type="text" />
                   </div>
-                  <button type="submit" class="axil-btn mb--15">
+                  <button type="submit" className="axil-btn mb--15">
                     Subscribe
                   </button>
                 </div>

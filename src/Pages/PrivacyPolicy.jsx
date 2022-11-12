@@ -7,27 +7,30 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Navbar />
-      <main class="main-wrapper">
-        <div class="axil-breadcrumb-area">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6 col-md-8">
-                <div class="inner">
-                  <ul class="axil-breadcrumb">
-                    <li class="axil-breadcrumb-item">
+      <main className="main-wrapper">
+        <div className="axil-breadcrumb-area">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6 col-md-8">
+                <div className="inner">
+                  <ul className="axil-breadcrumb">
+                    <li className="axil-breadcrumb-item">
                       <a href="index.html">Home</a>
                     </li>
-                    <li class="separator"></li>
-                    <li class="axil-breadcrumb-item active" aria-current="page">
+                    <li className="separator"></li>
+                    <li
+                      className="axil-breadcrumb-item active"
+                      aria-current="page"
+                    >
                       Pages
                     </li>
                   </ul>
-                  <h1 class="title">Privacy Policy</h1>
+                  <h1 className="title">Privacy Policy</h1>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-4">
-                <div class="inner">
-                  <div class="bradcrumb-thumb">
+              <div className="col-lg-6 col-md-4">
+                <div className="inner">
+                  <div className="bradcrumb-thumb">
                     <img
                       src="assets/images/product/product-45.png"
                       alt="Image"
@@ -38,15 +41,15 @@ const PrivacyPolicy = () => {
             </div>
           </div>
         </div>
-        <div class="axil-privacy-area axil-section-gap">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-10">
-                <div class="axil-privacy-policy">
-                  <span class="policy-published">
+        <div className="axil-privacy-area axil-section-gap">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10">
+                <div className="axil-privacy-policy">
+                  <span className="policy-published">
                     This Privacy policy was published on February 26th, 2022.
                   </span>
-                  <h4 class="title">GDPR compliance</h4>
+                  <h4 className="title">GDPR compliance</h4>
                   <p>
                     Sed nec ex vitae justo molestie maximus. Sed ut neque sit
                     amet libero rhoncus tempor. Fusce tempor quam libero, varius
@@ -59,7 +62,7 @@ const PrivacyPolicy = () => {
                     metus diam, hendrerit in purus fringilla, accumsan bibendum
                     sapien. Nunc non facilisis sem.
                   </p>
-                  <h4 class="title">About eTrade</h4>
+                  <h4 className="title">About eTrade</h4>
                   <p>
                     In dapibus, nibh sit amet pulvinar convallis, massa nunc
                     tincidunt nunc, a pretium risus nulla ut dui. Ut ut
@@ -68,14 +71,18 @@ const PrivacyPolicy = () => {
                     Quisque luctus cursus imperdiet.{" "}
                     <a href="mailto:hello@etrade.store">hello@etrade.store</a>
                   </p>
-                  <h4 class="title">When we collect personal data about you</h4>
+                  <h4 className="title">
+                    When we collect personal data about you
+                  </h4>
                   <ul>
                     <li>Email is a crucial channel in any marketing.</li>
                     <li>Curious what to say? How to say it?</li>
                     <li>Whether you’re kicking off a new campaign.</li>
                     <li>Habitasse per feugiat aliquam luctus accumsan curae</li>
                   </ul>
-                  <h4 class="title">Why we collect and use personal data</h4>
+                  <h4 className="title">
+                    Why we collect and use personal data
+                  </h4>
                   <p>
                     Sed nec ex vitae justo molestie maximus. Sed ut neque sit
                     amet libero rhoncus tempor. Fusce tempor quam libero, varius
@@ -111,14 +118,16 @@ const PrivacyPolicy = () => {
                       sed nibh.
                     </li>
                   </ul>
-                  <h4 class="title">Type of personal data collected</h4>
+                  <h4 className="title">Type of personal data collected</h4>
                   <p>
                     In ultrices elit malesuada velit ornare, eget dictum velit
                     hendrerit. Praesent bibendum blandit lectus, eu congue neque
                     mollis in. Pellentesque metus diam, hendrerit in purus
                     fringilla, accumsan bibendum sapien. Nunc non facilisis sem.
                   </p>
-                  <h4 class="title">Information we collect automatically</h4>
+                  <h4 className="title">
+                    Information we collect automatically
+                  </h4>
                   <p>
                     Etiam vel mi vel neque mattis iaculis. Proin vitae consequat
                     augue, vel porta tellus. Nullam tincidunt ac lorem eu
@@ -129,13 +138,13 @@ const PrivacyPolicy = () => {
                     convallis vestibulum. Quisque non neque augue. Nullam
                     condimentum nulla felis, nec suscipit augue congue ac.
                   </p>
-                  <h4 class="title">The use of cookies and web beacons</h4>
-                  <p class="mb--20">
+                  <h4 className="title">The use of cookies and web beacons</h4>
+                  <p className="mb--20">
                     We may log information using "cookies." Cookies are small
                     data files stored on your hard drive by a website. Cookies
                     help us make our Site and your visit better.
                   </p>
-                  <p class="mb--20">
+                  <p className="mb--20">
                     We may log information using digital images called web
                     beacons on our Site or in our emails.
                   </p>
@@ -151,8 +160,8 @@ const PrivacyPolicy = () => {
                     security threats and abuse. If used alone, cookies and web
                     beacons do not personally identify you.
                   </p>
-                  <h4 class="title">How long we keep your data</h4>
-                  <p class="mb--20">
+                  <h4 className="title">How long we keep your data</h4>
+                  <p className="mb--20">
                     We store personal data for as long as we find it necessary
                     to fulfill the purpose for which the personal data was
                     collected, while also considering our need to answer your
@@ -169,7 +178,7 @@ const PrivacyPolicy = () => {
                     for statistical purposes, but in such cases, data will be
                     anonymized.
                   </p>
-                  <h4 class="title">Your rights to your personal data</h4>
+                  <h4 className="title">Your rights to your personal data</h4>
                   <p>
                     We store personal data for as long as we find it necessary
                     to fulfill the purpose for which the personal data was
@@ -179,7 +188,7 @@ const PrivacyPolicy = () => {
                     attend to any legal claims/complaints, and for safeguarding
                     purposes.
                   </p>
-                  <h4 class="title">Hotjar’s privacy policy</h4>
+                  <h4 className="title">Hotjar’s privacy policy</h4>
                   <p>
                     Pellentesque vestibulum venenatis iaculis. Aliquam viverra
                     sodales ultrices. Quisque sed purus id massa consequat
@@ -193,7 +202,7 @@ const PrivacyPolicy = () => {
                     sit amet gravida nisi. Praesent ac blandit odio. Curabitur
                     iaculis ante elit, et imperdiet leo mollis at.
                   </p>
-                  <h4 class="title">Changes to this Privacy Policy</h4>
+                  <h4 className="title">Changes to this Privacy Policy</h4>
                   <p>
                     Integer eu ornare lectus, ornare ullamcorper tellus. Morbi
                     in urna a justo dignissim luctus. Nam sagittis ante ut lorem

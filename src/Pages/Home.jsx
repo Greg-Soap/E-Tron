@@ -1,6 +1,7 @@
 import React from "react";
 import { Footer } from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import { Link } from "react-router-dom";
 import ServiceArea from "../Components/ServiceArea";
 
 const Home = () => {
@@ -567,7 +568,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="200"
@@ -582,7 +583,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-08.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -598,12 +599,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Add to Cart</a>
+                              <Link to="/SingleProduct">Add to Cart</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -621,9 +622,9 @@ const Home = () => {
                             <span className="rating-number">(64)</span>
                           </div>
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               Yantiti Leather & Canvas Bags
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -637,7 +638,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="300"
@@ -651,7 +652,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-06.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="product-hover-action">
                           <ul className="cart-action">
                             <li className="quickview">
@@ -664,12 +665,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -677,9 +678,7 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
-                              Level 20 RGB Cherry
-                            </a>
+                            <Link to="/SingleProduct">Level 20 RGB Cherry</Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -712,7 +711,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="400"
@@ -721,7 +720,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-03.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -737,12 +736,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -750,7 +749,7 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">Logitech Streamcam</a>
+                            <Link to="/SingleProduct">Logitech Streamcam</Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -783,7 +782,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="500"
@@ -797,7 +796,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-05.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="product-hover-action">
                           <ul className="cart-action">
                             <li className="quickview">
@@ -810,12 +809,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -833,9 +832,9 @@ const Home = () => {
                             <span className="rating-number">(44)</span>
                           </div>
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -849,7 +848,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="200"
@@ -863,7 +862,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-04.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -879,12 +878,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -892,7 +891,7 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">Bass Meets Clarity</a>
+                            <Link to="/SingleProduct">Bass Meets Clarity</Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -925,7 +924,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="300"
@@ -934,7 +933,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-06.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -950,12 +949,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -963,7 +962,7 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">Mice Logitech</a>
+                            <Link to="/SingleProduct">Mice Logitech</Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -996,7 +995,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="400"
@@ -1010,7 +1009,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-08.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1026,12 +1025,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1049,7 +1048,7 @@ const Home = () => {
                             <span className="rating-number">(64)</span>
                           </div>
                           <h5 className="title">
-                            <a href="single-product.html">Zone Headphone</a>
+                            <Link to="/SingleProduct">Zone Headphone</Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1062,7 +1061,7 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             data-sal="zoom-out"
                             data-sal-delay="500"
@@ -1071,7 +1070,7 @@ const Home = () => {
                             src="assets/images/product/electric/product-08.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1087,12 +1086,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1100,9 +1099,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1138,12 +1137,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-01.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1159,12 +1158,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1172,9 +1171,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               Yantiti Leather & Canvas Bags
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1187,12 +1186,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-02.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="product-hover-action">
                           <ul className="cart-action">
                             <li className="quickview">
@@ -1205,12 +1204,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1218,9 +1217,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1252,12 +1251,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-03.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1273,12 +1272,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1286,9 +1285,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1320,12 +1319,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-04.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="product-hover-action">
                           <ul className="cart-action">
                             <li className="quickview">
@@ -1338,12 +1337,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1351,9 +1350,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1366,12 +1365,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-05.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1387,12 +1386,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1400,9 +1399,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1434,12 +1433,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-06.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1455,12 +1454,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1468,9 +1467,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1502,12 +1501,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-07.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1523,12 +1522,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1536,9 +1535,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1570,12 +1569,12 @@ const Home = () => {
                   <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
                     <div className="axil-product product-style-one">
                       <div className="thumbnail">
-                        <a href="single-product.html">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-08.png"
                             alt="Product Images"
                           />
-                        </a>
+                        </Link>
                         <div className="label-block label-right">
                           <div className="product-badget">20% Off</div>
                         </div>
@@ -1591,12 +1590,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Select Option</a>
+                              <Link to="/SingleProduct">Select Option</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1604,9 +1603,9 @@ const Home = () => {
                       <div className="product-content">
                         <div className="inner">
                           <h5 className="title">
-                            <a href="single-product.html">
+                            <Link to="/SingleProduct">
                               3D™ wireless headset
-                            </a>
+                            </Link>
                           </h5>
                           <div className="product-price-variant">
                             <span className="price current-price">$29.99</span>
@@ -1764,7 +1763,7 @@ const Home = () => {
                 <div className="slick-single-layout">
                   <div className="axil-product product-style-two">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-out"
                           data-sal-delay="200"
@@ -1772,7 +1771,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-05.png"
                           alt="Product Images"
                         />
-                      </a>
+                      </Link>
                       <div className="label-block label-right">
                         <div className="product-badget">10% OFF</div>
                       </div>
@@ -1799,7 +1798,7 @@ const Home = () => {
                           </ul>
                         </div>
                         <h5 className="title">
-                          <a href="single-product.html">Demon's Souls</a>
+                          <Link to="/SingleProduct">Demon's Souls</Link>
                         </h5>
                         <div className="product-price-variant">
                           <span className="price old-price">$40</span>
@@ -1817,12 +1816,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Add to Cart</a>
+                              <Link to="/SingleProduct">Add to Cart</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1833,7 +1832,7 @@ const Home = () => {
                 <div className="slick-single-layout">
                   <div className="axil-product product-style-two">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-out"
                           data-sal-delay="300"
@@ -1841,7 +1840,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-06.png"
                           alt="Product Images"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="inner">
@@ -1865,7 +1864,7 @@ const Home = () => {
                           </ul>
                         </div>
                         <h5 className="title">
-                          <a href="single-product.html">Google Home</a>
+                          <Link to="/SingleProduct">Google Home</Link>
                         </h5>
                         <div className="product-price-variant">
                           <span className="price old-price">$50</span>
@@ -1884,12 +1883,12 @@ const Home = () => {
                             </a>
                           </li>
                           <li className="select-option">
-                            <a href="single-product.html">Select Option</a>
+                            <Link to="/SingleProduct">Select Option</Link>
                           </li>
                           <li className="wishlist">
-                            <a href="wishlist.html">
+                            <Link to="/Wishlist">
                               <i className="far fa-heart"></i>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -1899,7 +1898,7 @@ const Home = () => {
                 <div className="slick-single-layout">
                   <div className="axil-product product-style-two">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-out"
                           data-sal-delay="400"
@@ -1907,7 +1906,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-07.png"
                           alt="Product Images"
                         />
-                      </a>
+                      </Link>
                       <div className="label-block label-right">
                         <div className="product-badget">15% OFF</div>
                       </div>
@@ -1934,7 +1933,7 @@ const Home = () => {
                           </ul>
                         </div>
                         <h5 className="title">
-                          <a href="single-product.html">Netfilx Remot</a>
+                          <Link to="/SingleProduct">Netfilx Remot</Link>
                         </h5>
                         <div className="product-price-variant">
                           <span className="price old-price">$60</span>
@@ -1952,12 +1951,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Add to Cart</a>
+                              <Link to="/SingleProduct">Add to Cart</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1968,7 +1967,7 @@ const Home = () => {
                 <div className="slick-single-layout">
                   <div className="axil-product product-style-two">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-out"
                           data-sal-delay="500"
@@ -1976,7 +1975,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-08.png"
                           alt="Product Images"
                         />
-                      </a>
+                      </Link>
                       <div className="label-block label-right">
                         <div className="product-badget">30% OFF</div>
                       </div>
@@ -2003,7 +2002,7 @@ const Home = () => {
                           </ul>
                         </div>
                         <h5 className="title">
-                          <a href="single-product.html">Digital Accessories</a>
+                          <Link to="/SingleProduct">Digital Accessories</Link>
                         </h5>
                         <div className="product-price-variant">
                           <span className="price old-price">$30</span>
@@ -2021,12 +2020,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Add to Cart</a>
+                              <Link to="/SingleProduct">Add to Cart</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -2037,7 +2036,7 @@ const Home = () => {
                 <div className="slick-single-layout">
                   <div className="axil-product product-style-two">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-out"
                           data-sal-delay="100"
@@ -2045,7 +2044,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-04.png"
                           alt="Product Images"
                         />
-                      </a>
+                      </Link>
                       <div className="label-block label-right">
                         <div className="product-badget">50% OFF</div>
                       </div>
@@ -2072,7 +2071,7 @@ const Home = () => {
                           </ul>
                         </div>
                         <h5 className="title">
-                          <a href="single-product.html">PS5 Smart Remote</a>
+                          <Link to="/SingleProduct">PS5 Smart Remote</Link>
                         </h5>
                         <div className="product-price-variant">
                           <span className="price old-price">$50</span>
@@ -2090,12 +2089,12 @@ const Home = () => {
                               </a>
                             </li>
                             <li className="select-option">
-                              <a href="single-product.html">Add to Cart</a>
+                              <Link to="/SingleProduct">Add to Cart</Link>
                             </li>
                             <li className="wishlist">
-                              <a href="wishlist.html">
+                              <Link to="/Wishlist">
                                 <i className="far fa-heart"></i>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -2120,7 +2119,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="100"
@@ -2128,7 +2127,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-09.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2144,7 +2143,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">Media Remote</a>
+                        <Link to="/SingleProduct">Media Remote</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$29.99</span>
@@ -2154,9 +2153,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2164,7 +2163,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="200"
@@ -2172,7 +2171,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-10.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2188,7 +2187,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">HD Camera</a>
+                        <Link to="/SingleProduct">HD Camera</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$49.99</span>
@@ -2197,9 +2196,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2207,7 +2206,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="300"
@@ -2215,7 +2214,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-11.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2231,7 +2230,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">Gaming Controller</a>
+                        <Link to="/SingleProduct">Gaming Controller</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$50.00</span>
@@ -2240,9 +2239,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2250,7 +2249,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="400"
@@ -2258,7 +2257,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-12.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2274,7 +2273,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">Wall Mount </a>
+                        <Link to="/SingleProduct">Wall Mount </Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$19.00</span>
@@ -2283,9 +2282,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2293,7 +2292,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="500"
@@ -2301,7 +2300,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-13.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2317,7 +2316,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">Lenevo Laptop</a>
+                        <Link to="/SingleProduct">Lenevo Laptop</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$999.99</span>
@@ -2326,9 +2325,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2336,7 +2335,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="600"
@@ -2344,7 +2343,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-14.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2360,7 +2359,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">Juice Grinder Machine</a>
+                        <Link to="/SingleProduct">Juice Grinder Machine</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$99.00</span>
@@ -2369,9 +2368,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2379,7 +2378,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="400"
@@ -2387,7 +2386,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-15.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2403,7 +2402,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">Wireless Headphone</a>
+                        <Link to="/SingleProduct">Wireless Headphone</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$59.99</span>
@@ -2412,9 +2411,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -2422,7 +2421,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <a href="single-product.html">
+                      <Link to="/SingleProduct">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="500"
@@ -2430,7 +2429,7 @@ const Home = () => {
                           src="assets/images/product/electric/product-16.png"
                           alt="Yantiti Leather Bags"
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div className="product-content">
                       <div className="product-rating">
@@ -2446,7 +2445,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <a href="single-product.html">Asus Zenbook Laptop</a>
+                        <Link to="/SingleProduct">Asus Zenbook Laptop</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$899.00</span>
@@ -2455,9 +2454,9 @@ const Home = () => {
                         <a href="cart.html" className="cart-btn">
                           <i className="fal fa-shopping-cart"></i>
                         </a>
-                        <a href="wishlist.html" className="cart-btn">
+                        <Link to="/Wishlist" className="cart-btn">
                           <i className="fal fa-heart"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

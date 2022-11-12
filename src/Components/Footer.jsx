@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -10,13 +11,13 @@ export const Footer = () => {
               <div class="axil-footer-widget">
                 <h5 class="widget-title">Support</h5>
                 <div class="logo mb--30">
-                  <a href="index.html">
+                  <Link to="/">
                     <img
                       class="light-logo"
                       src="assets/images/logo/logo.png"
                       alt="Logo Images"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div class="inner">
                   <p>
@@ -45,19 +46,19 @@ export const Footer = () => {
                 <div class="inner">
                   <ul>
                     <li>
-                      <a href="my-account.html">My Account</a>
+                      <Link to="/Account">My Account</Link>
                     </li>
                     <li>
-                      <a href="sign-up.html">Login / Register</a>
+                      <Link to="/Login">Login</Link>
                     </li>
                     <li>
-                      <a href="cart.html">Cart</a>
+                      <Link to="/Cart">Cart</Link>
                     </li>
                     <li>
-                      <a href="wishlist.html">Wishlist</a>
+                      <Link to="/Wishlist">Wishlist</Link>
                     </li>
                     <li>
-                      <a href="shop.html">Shop</a>
+                      <Link to="/Shop">Shop</Link>
                     </li>
                   </ul>
                 </div>
@@ -69,19 +70,16 @@ export const Footer = () => {
                 <div class="inner">
                   <ul>
                     <li>
-                      <a href="privacy-policy.html">Privacy Policy</a>
+                      <Link to="/PrivacyPolicy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <a href="terms-of-service.html">Terms Of Use</a>
+                      <Link to="/">Terms Of Use</Link>
                     </li>
                     <li>
                       <a href="#">FAQ</a>
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
+                      <Link to="/Contact">Contact</Link>
                     </li>
                   </ul>
                 </div>

@@ -1,79 +1,80 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
     <>
-      <main class="main-wrapper">
-        <div class="axil-product-cart-area axil-section-gap">
-          <div class="container">
-            <div class="axil-product-cart-wrap">
-              <div class="product-table-heading">
-                <h4 class="title">Your Cart</h4>
-                <a href="#" class="cart-clear">
+      <main className="main-wrapper">
+        <div className="axil-product-cart-area axil-section-gap">
+          <div className="container">
+            <div className="axil-product-cart-wrap">
+              <div className="product-table-heading">
+                <h4 className="title">Your Cart</h4>
+                <a href="#" className="cart-clear">
                   Clear Shoping Cart
                 </a>
               </div>
-              <div class="table-responsive">
-                <table class="table axil-product-table axil-cart-table mb--40">
+              <div className="table-responsive">
+                <table className="table axil-product-table axil-cart-table mb--40">
                   <thead>
                     <tr>
-                      <th scope="col" class="product-remove"></th>
-                      <th scope="col" class="product-thumbnail">
+                      <th scope="col" className="product-remove"></th>
+                      <th scope="col" className="product-thumbnail">
                         Product
                       </th>
-                      <th scope="col" class="product-title"></th>
-                      <th scope="col" class="product-price">
+                      <th scope="col" className="product-title"></th>
+                      <th scope="col" className="product-price">
                         Price
                       </th>
-                      <th scope="col" class="product-quantity">
+                      <th scope="col" className="product-quantity">
                         Quantity
                       </th>
-                      <th scope="col" class="product-subtotal">
+                      <th scope="col" className="product-subtotal">
                         Subtotal
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="product-remove">
-                        <a href="#" class="remove-wishlist">
-                          <i class="fal fa-times"></i>
+                      <td className="product-remove">
+                        <a href="#" className="remove-wishlist">
+                          <i className="fal fa-times"></i>
                         </a>
                       </td>
-                      <td class="product-thumbnail">
-                        <a href="single-product.html">
+                      <td className="product-thumbnail">
+                        <Link to="/SingleProduct">
                           <img
                             src="assets/images/product/electric/product-01.png"
                             alt="Digital Product"
                           />
-                        </a>
+                        </Link>
                       </td>
-                      <td class="product-title">
-                        <a href="single-product.html">Wireless PS Handler</a>
+                      <td className="product-title">
+                        <Link to="/SingleProduct">Wireless PS Handler</Link>
                       </td>
-                      <td class="product-price" data-title="Price">
-                        <span class="currency-symbol">$</span>124.00
+                      <td className="product-price" data-title="Price">
+                        <span className="currency-symbol">$</span>124.00
                       </td>
-                      <td class="product-quantity" data-title="Qty">
-                        <div class="pro-qty">
+                      <td className="product-quantity" data-title="Qty">
+                        <div className="pro-qty">
                           <input
                             type="number"
-                            class="quantity-input"
+                            className="quantity-input"
                             value="1"
                           />
                         </div>
                       </td>
-                      <td class="product-subtotal" data-title="Subtotal">
-                        <span class="currency-symbol">$</span>275.00
+                      <td className="product-subtotal" data-title="Subtotal">
+                        <span className="currency-symbol">$</span>275.00
                       </td>
                     </tr>
                     <tr>
-                      <td class="product-remove">
-                        <a href="#" class="remove-wishlist">
-                          <i class="fal fa-times"></i>
+                      <td className="product-remove">
+                        <a href="#" className="remove-wishlist">
+                          <i className="fal fa-times"></i>
                         </a>
                       </td>
-                      <td class="product-thumbnail">
+                      <td className="product-thumbnail">
                         <a href="single-product-2.html">
                           <img
                             src="assets/images/product/electric/product-02.png"
@@ -81,34 +82,34 @@ const Cart = () => {
                           />
                         </a>
                       </td>
-                      <td class="product-title">
+                      <td className="product-title">
                         <a href="single-product-2.html">
                           Gradient Light Keyboard
                         </a>
                       </td>
-                      <td class="product-price" data-title="Price">
-                        <span class="currency-symbol">$</span>124.00
+                      <td className="product-price" data-title="Price">
+                        <span className="currency-symbol">$</span>124.00
                       </td>
-                      <td class="product-quantity" data-title="Qty">
-                        <div class="pro-qty">
+                      <td className="product-quantity" data-title="Qty">
+                        <div className="pro-qty">
                           <input
                             type="number"
-                            class="quantity-input"
+                            className="quantity-input"
                             value="1"
                           />
                         </div>
                       </td>
-                      <td class="product-subtotal" data-title="Subtotal">
-                        <span class="currency-symbol">$</span>275.00
+                      <td className="product-subtotal" data-title="Subtotal">
+                        <span className="currency-symbol">$</span>275.00
                       </td>
                     </tr>
                     <tr>
-                      <td class="product-remove">
-                        <a href="#" class="remove-wishlist">
-                          <i class="fal fa-times"></i>
+                      <td className="product-remove">
+                        <a href="#" className="remove-wishlist">
+                          <i className="fal fa-times"></i>
                         </a>
                       </td>
-                      <td class="product-thumbnail">
+                      <td className="product-thumbnail">
                         <a href="single-product-3.html">
                           <img
                             src="assets/images/product/electric/product-03.png"
@@ -116,58 +117,58 @@ const Cart = () => {
                           />
                         </a>
                       </td>
-                      <td class="product-title">
+                      <td className="product-title">
                         <a href="single-product-3.html">HD CC Camera</a>
                       </td>
-                      <td class="product-price" data-title="Price">
-                        <span class="currency-symbol">$</span>124.00
+                      <td className="product-price" data-title="Price">
+                        <span className="currency-symbol">$</span>124.00
                       </td>
-                      <td class="product-quantity" data-title="Qty">
-                        <div class="pro-qty">
+                      <td className="product-quantity" data-title="Qty">
+                        <div className="pro-qty">
                           <input
                             type="number"
-                            class="quantity-input"
+                            className="quantity-input"
                             value="1"
                           />
                         </div>
                       </td>
-                      <td class="product-subtotal" data-title="Subtotal">
-                        <span class="currency-symbol">$</span>275.00
+                      <td className="product-subtotal" data-title="Subtotal">
+                        <span className="currency-symbol">$</span>275.00
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="cart-update-btn-area">
-                <div class="input-group product-cupon">
+              <div className="cart-update-btn-area">
+                <div className="input-group product-cupon">
                   <input placeholder="Enter coupon code" type="text" />
-                  <div class="product-cupon-btn">
-                    <button type="submit" class="axil-btn btn-outline">
+                  <div className="product-cupon-btn">
+                    <button type="submit" className="axil-btn btn-outline">
                       Apply
                     </button>
                   </div>
                 </div>
-                <div class="update-btn">
-                  <a href="#" class="axil-btn btn-outline">
+                <div className="update-btn">
+                  <a href="#" className="axil-btn btn-outline">
                     Update Cart
                   </a>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-xl-5 col-lg-7 offset-xl-7 offset-lg-5">
-                  <div class="axil-order-summery mt--80">
-                    <h5 class="title mb--20">Order Summary</h5>
-                    <div class="summery-table-wrap">
-                      <table class="table summery-table mb--30">
+              <div className="row">
+                <div className="col-xl-5 col-lg-7 offset-xl-7 offset-lg-5">
+                  <div className="axil-order-summery mt--80">
+                    <h5 className="title mb--20">Order Summary</h5>
+                    <div className="summery-table-wrap">
+                      <table className="table summery-table mb--30">
                         <tbody>
-                          <tr class="order-subtotal">
+                          <tr className="order-subtotal">
                             <td>Subtotal</td>
                             <td>$117.00</td>
                           </tr>
-                          <tr class="order-shipping">
+                          <tr className="order-shipping">
                             <td>Shipping</td>
                             <td>
-                              <div class="input-group">
+                              <div className="input-group">
                                 <input
                                   type="radio"
                                   id="radio1"
@@ -176,7 +177,7 @@ const Cart = () => {
                                 />
                                 <label for="radio1">Free Shippping</label>
                               </div>
-                              <div class="input-group">
+                              <div className="input-group">
                                 <input
                                   type="radio"
                                   id="radio2"
@@ -184,7 +185,7 @@ const Cart = () => {
                                 />
                                 <label for="radio2">Local: $35.00</label>
                               </div>
-                              <div class="input-group">
+                              <div className="input-group">
                                 <input
                                   type="radio"
                                   id="radio3"
@@ -194,20 +195,20 @@ const Cart = () => {
                               </div>
                             </td>
                           </tr>
-                          <tr class="order-tax">
+                          <tr className="order-tax">
                             <td>State Tax</td>
                             <td>$8.00</td>
                           </tr>
-                          <tr class="order-total">
+                          <tr className="order-total">
                             <td>Total</td>
-                            <td class="order-total-amount">$125.00</td>
+                            <td className="order-total-amount">$125.00</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                     <a
                       href="checkout.html"
-                      class="axil-btn btn-bg-primary checkout-btn"
+                      className="axil-btn btn-bg-primary checkout-btn"
                     >
                       Process to Checkout
                     </a>

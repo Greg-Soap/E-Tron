@@ -1,70 +1,71 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ServiceArea from "../Components/ServiceArea";
 
 const WishList = () => {
   return (
     <>
-      <main class="main-wrapper">
-        <div class="axil-wishlist-area axil-section-gap">
-          <div class="container">
-            <div class="product-table-heading">
-              <h4 class="title">My Wish List on eTrade</h4>
+      <main className="main-wrapper">
+        <div className="axil-wishlist-area axil-section-gap">
+          <div className="container">
+            <div className="product-table-heading">
+              <h4 className="title">My Wish List on eTrade</h4>
             </div>
-            <div class="table-responsive">
-              <table class="table axil-product-table axil-wishlist-table">
+            <div className="table-responsive">
+              <table className="table axil-product-table axil-wishlist-table">
                 <thead>
                   <tr>
-                    <th scope="col" class="product-remove"></th>
-                    <th scope="col" class="product-thumbnail">
+                    <th scope="col" className="product-remove"></th>
+                    <th scope="col" className="product-thumbnail">
                       Product
                     </th>
-                    <th scope="col" class="product-title"></th>
-                    <th scope="col" class="product-price">
+                    <th scope="col" className="product-title"></th>
+                    <th scope="col" className="product-price">
                       Unit Price
                     </th>
-                    <th scope="col" class="product-stock-status">
+                    <th scope="col" className="product-stock-status">
                       Stock Status
                     </th>
-                    <th scope="col" class="product-add-cart"></th>
+                    <th scope="col" className="product-add-cart"></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="product-remove">
-                      <a href="#" class="remove-wishlist">
-                        <i class="fal fa-times"></i>
+                    <td className="product-remove">
+                      <a href="#" className="remove-wishlist">
+                        <i className="fal fa-times"></i>
                       </a>
                     </td>
-                    <td class="product-thumbnail">
-                      <a href="single-product.html">
+                    <td className="product-thumbnail">
+                      <Link to="/SingleProduct">
                         <img
                           src="assets/images/product/electric/product-01.png"
                           alt="Digital Product"
                         />
-                      </a>
+                      </Link>
                     </td>
-                    <td class="product-title">
-                      <a href="single-product.html">Wireless PS Handler</a>
+                    <td className="product-title">
+                      <Link to="/SingleProduct">Wireless PS Handler</Link>
                     </td>
-                    <td class="product-price" data-title="Price">
-                      <span class="currency-symbol">$</span>124.00
+                    <td className="product-price" data-title="Price">
+                      <span className="currency-symbol">$</span>124.00
                     </td>
-                    <td class="product-stock-status" data-title="Status">
+                    <td className="product-stock-status" data-title="Status">
                       In Stock
                     </td>
-                    <td class="product-add-cart">
-                      <a href="cart.html" class="axil-btn btn-outline">
+                    <td className="product-add-cart">
+                      <a href="cart.html" className="axil-btn btn-outline">
                         Add to Cart
                       </a>
                     </td>
                   </tr>
                   <tr>
-                    <td class="product-remove">
-                      <a href="#" class="remove-wishlist">
-                        <i class="fal fa-times"></i>
+                    <td className="product-remove">
+                      <a href="#" className="remove-wishlist">
+                        <i className="fal fa-times"></i>
                       </a>
                     </td>
-                    <td class="product-thumbnail">
+                    <td className="product-thumbnail">
                       <a href="single-product-2.html">
                         <img
                           src="assets/images/product/electric/product-02.png"
@@ -72,30 +73,30 @@ const WishList = () => {
                         />
                       </a>
                     </td>
-                    <td class="product-title">
+                    <td className="product-title">
                       <a href="single-product-2.html">
                         Gradient Light Keyboard
                       </a>
                     </td>
-                    <td class="product-price" data-title="Price">
-                      <span class="currency-symbol">$</span>124.00
+                    <td className="product-price" data-title="Price">
+                      <span className="currency-symbol">$</span>124.00
                     </td>
-                    <td class="product-stock-status" data-title="Status">
+                    <td className="product-stock-status" data-title="Status">
                       In Stock
                     </td>
-                    <td class="product-add-cart">
-                      <a href="cart.html" class="axil-btn btn-outline">
+                    <td className="product-add-cart">
+                      <a href="cart.html" className="axil-btn btn-outline">
                         Add to Cart
                       </a>
                     </td>
                   </tr>
                   <tr>
-                    <td class="product-remove">
-                      <a href="#" class="remove-wishlist">
-                        <i class="fal fa-times"></i>
+                    <td className="product-remove">
+                      <a href="#" className="remove-wishlist">
+                        <i className="fal fa-times"></i>
                       </a>
                     </td>
-                    <td class="product-thumbnail">
+                    <td className="product-thumbnail">
                       <a href="single-product-3.html">
                         <img
                           src="assets/images/product/electric/product-03.png"
@@ -103,17 +104,17 @@ const WishList = () => {
                         />
                       </a>
                     </td>
-                    <td class="product-title">
+                    <td className="product-title">
                       <a href="single-product-3.html">HD CC Camera</a>
                     </td>
-                    <td class="product-price" data-title="Price">
-                      <span class="currency-symbol">$</span>124.00
+                    <td className="product-price" data-title="Price">
+                      <span className="currency-symbol">$</span>124.00
                     </td>
-                    <td class="product-stock-status" data-title="Status">
+                    <td className="product-stock-status" data-title="Status">
                       In Stock
                     </td>
-                    <td class="product-add-cart">
-                      <a href="cart.html" class="axil-btn btn-outline">
+                    <td className="product-add-cart">
+                      <a href="cart.html" className="axil-btn btn-outline">
                         Add to Cart
                       </a>
                     </td>

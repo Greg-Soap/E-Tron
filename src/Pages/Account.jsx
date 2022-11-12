@@ -7,27 +7,30 @@ const Account = () => {
   return (
     <>
       <Navbar />
-      <main class="main-wrapper">
-        <div class="axil-breadcrumb-area">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6 col-md-8">
-                <div class="inner">
-                  <ul class="axil-breadcrumb">
-                    <li class="axil-breadcrumb-item">
+      <main className="main-wrapper">
+        <div className="axil-breadcrumb-area">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6 col-md-8">
+                <div className="inner">
+                  <ul className="axil-breadcrumb">
+                    <li className="axil-breadcrumb-item">
                       <a href="index.html">Home</a>
                     </li>
-                    <li class="separator"></li>
-                    <li class="axil-breadcrumb-item active" aria-current="page">
+                    <li className="separator"></li>
+                    <li
+                      className="axil-breadcrumb-item active"
+                      aria-current="page"
+                    >
                       My Account
                     </li>
                   </ul>
-                  <h1 class="title">Explore All Products</h1>
+                  <h1 className="title">Explore All Products</h1>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-4">
-                <div class="inner">
-                  <div class="bradcrumb-thumb">
+              <div className="col-lg-6 col-md-4">
+                <div className="inner">
+                  <div className="bradcrumb-thumb">
                     <img
                       src="assets/images/product/product-45.png"
                       alt="Image"
@@ -38,91 +41,91 @@ const Account = () => {
             </div>
           </div>
         </div>
-        <div class="axil-dashboard-area axil-section-gap">
-          <div class="container">
-            <div class="axil-dashboard-warp">
-              <div class="axil-dashboard-author">
-                <div class="media">
-                  <div class="thumbnail">
+        <div className="axil-dashboard-area axil-section-gap">
+          <div className="container">
+            <div className="axil-dashboard-warp">
+              <div className="axil-dashboard-author">
+                <div className="media">
+                  <div className="thumbnail">
                     <img
                       src="assets/images/product/author1.png"
                       alt="Hello Annie"
                     />
                   </div>
-                  <div class="media-body">
-                    <h5 class="title mb-0">Hello Annie</h5>
-                    <span class="joining-date">
+                  <div className="media-body">
+                    <h5 className="title mb-0">Hello Annie</h5>
+                    <span className="joining-date">
                       eTrade Member Since Sep 2020
                     </span>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-xl-3 col-md-4">
-                  <aside class="axil-dashboard-aside">
-                    <nav class="axil-dashboard-nav">
-                      <div class="nav nav-tabs" role="tablist">
+              <div className="row">
+                <div className="col-xl-3 col-md-4">
+                  <aside className="axil-dashboard-aside">
+                    <nav className="axil-dashboard-nav">
+                      <div className="nav nav-tabs" role="tablist">
                         <a
-                          class="nav-item nav-link active"
+                          className="nav-item nav-link active"
                           data-bs-toggle="tab"
                           href="#nav-dashboard"
                           role="tab"
                           aria-selected="true"
                         >
-                          <i class="fas fa-th-large"></i>Dashboard
+                          <i className="fas fa-th-large"></i>Dashboard
                         </a>
                         <a
-                          class="nav-item nav-link"
+                          className="nav-item nav-link"
                           data-bs-toggle="tab"
                           href="#nav-orders"
                           role="tab"
                           aria-selected="false"
                         >
-                          <i class="fas fa-shopping-basket"></i>Orders
+                          <i className="fas fa-shopping-basket"></i>Orders
                         </a>
                         <a
-                          class="nav-item nav-link"
+                          className="nav-item nav-link"
                           data-bs-toggle="tab"
                           href="#nav-downloads"
                           role="tab"
                           aria-selected="false"
                         >
-                          <i class="fas fa-file-download"></i>Downloads
+                          <i className="fas fa-file-download"></i>Downloads
                         </a>
                         <a
-                          class="nav-item nav-link"
+                          className="nav-item nav-link"
                           data-bs-toggle="tab"
                           href="#nav-address"
                           role="tab"
                           aria-selected="false"
                         >
-                          <i class="fas fa-home"></i>Addresses
+                          <i className="fas fa-home"></i>Addresses
                         </a>
                         <a
-                          class="nav-item nav-link"
+                          className="nav-item nav-link"
                           data-bs-toggle="tab"
                           href="#nav-account"
                           role="tab"
                           aria-selected="false"
                         >
-                          <i class="fas fa-user"></i>Account Details
+                          <i className="fas fa-user"></i>Account Details
                         </a>
-                        <a class="nav-item nav-link" href="sign-in.html">
-                          <i class="fal fa-sign-out"></i>Logout
+                        <a className="nav-item nav-link" href="sign-in.html">
+                          <i className="fal fa-sign-out"></i>Logout
                         </a>
                       </div>
                     </nav>
                   </aside>
                 </div>
-                <div class="col-xl-9 col-md-8">
-                  <div class="tab-content">
+                <div className="col-xl-9 col-md-8">
+                  <div className="tab-content">
                     <div
-                      class="tab-pane fade show active"
+                      className="tab-pane fade show active"
                       id="nav-dashboard"
                       role="tabpanel"
                     >
-                      <div class="axil-dashboard-overview">
-                        <div class="welcome-text">
+                      <div className="axil-dashboard-overview">
+                        <div className="welcome-text">
                           Hello Annie (not <span>Annie?</span>{" "}
                           <a href="sign-in.html">Log Out</a>)
                         </div>
@@ -133,10 +136,14 @@ const Account = () => {
                         </p>
                       </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-orders" role="tabpanel">
-                      <div class="axil-dashboard-order">
-                        <div class="table-responsive">
-                          <table class="table">
+                    <div
+                      className="tab-pane fade"
+                      id="nav-orders"
+                      role="tabpanel"
+                    >
+                      <div className="axil-dashboard-order">
+                        <div className="table-responsive">
+                          <table className="table">
                             <thead>
                               <tr>
                                 <th scope="col">Order</th>
@@ -153,7 +160,7 @@ const Account = () => {
                                 <td>Processing</td>
                                 <td>$326.63 for 3 items</td>
                                 <td>
-                                  <a href="#" class="axil-btn view-btn">
+                                  <a href="#" className="axil-btn view-btn">
                                     View
                                   </a>
                                 </td>
@@ -164,7 +171,7 @@ const Account = () => {
                                 <td>On Hold</td>
                                 <td>$326.63 for 3 items</td>
                                 <td>
-                                  <a href="#" class="axil-btn view-btn">
+                                  <a href="#" className="axil-btn view-btn">
                                     View
                                   </a>
                                 </td>
@@ -175,7 +182,7 @@ const Account = () => {
                                 <td>Processing</td>
                                 <td>$326.63 for 3 items</td>
                                 <td>
-                                  <a href="#" class="axil-btn view-btn">
+                                  <a href="#" className="axil-btn view-btn">
                                     View
                                   </a>
                                 </td>
@@ -186,7 +193,7 @@ const Account = () => {
                                 <td>Processing</td>
                                 <td>$326.63 for 3 items</td>
                                 <td>
-                                  <a href="#" class="axil-btn view-btn">
+                                  <a href="#" className="axil-btn view-btn">
                                     View
                                   </a>
                                 </td>
@@ -197,7 +204,7 @@ const Account = () => {
                                 <td>Processing</td>
                                 <td>$326.63 for 3 items</td>
                                 <td>
-                                  <a href="#" class="axil-btn view-btn">
+                                  <a href="#" className="axil-btn view-btn">
                                     View
                                   </a>
                                 </td>
@@ -208,53 +215,57 @@ const Account = () => {
                       </div>
                     </div>
                     <div
-                      class="tab-pane fade"
+                      className="tab-pane fade"
                       id="nav-downloads"
                       role="tabpanel"
                     >
-                      <div class="axil-dashboard-order">
+                      <div className="axil-dashboard-order">
                         <p>You don't have any download</p>
                       </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-address" role="tabpanel">
-                      <div class="axil-dashboard-address">
-                        <p class="notice-text">
+                    <div
+                      className="tab-pane fade"
+                      id="nav-address"
+                      role="tabpanel"
+                    >
+                      <div className="axil-dashboard-address">
+                        <p className="notice-text">
                           The following addresses will be used on the checkout
                           page by default.
                         </p>
-                        <div class="row row--30">
-                          <div class="col-lg-6">
-                            <div class="address-info mb--40">
-                              <div class="addrss-header d-flex align-items-center justify-content-between">
-                                <h4 class="title mb-0">Shipping Address</h4>
-                                <a href="#" class="address-edit">
-                                  <i class="far fa-edit"></i>
+                        <div className="row row--30">
+                          <div className="col-lg-6">
+                            <div className="address-info mb--40">
+                              <div className="addrss-header d-flex align-items-center justify-content-between">
+                                <h4 className="title mb-0">Shipping Address</h4>
+                                <a href="#" className="address-edit">
+                                  <i className="far fa-edit"></i>
                                 </a>
                               </div>
-                              <ul class="address-details">
+                              <ul className="address-details">
                                 <li>Name: Annie Mario</li>
                                 <li>Email: annie@example.com</li>
                                 <li>Phone: 1234 567890</li>
-                                <li class="mt--30">
+                                <li className="mt--30">
                                   7398 Smoke Ranch Road <br />
                                   Las Vegas, Nevada 89128
                                 </li>
                               </ul>
                             </div>
                           </div>
-                          <div class="col-lg-6">
-                            <div class="address-info">
-                              <div class="addrss-header d-flex align-items-center justify-content-between">
-                                <h4 class="title mb-0">Billing Address</h4>
-                                <a href="#" class="address-edit">
-                                  <i class="far fa-edit"></i>
+                          <div className="col-lg-6">
+                            <div className="address-info">
+                              <div className="addrss-header d-flex align-items-center justify-content-between">
+                                <h4 className="title mb-0">Billing Address</h4>
+                                <a href="#" className="address-edit">
+                                  <i className="far fa-edit"></i>
                                 </a>
                               </div>
-                              <ul class="address-details">
+                              <ul className="address-details">
                                 <li>Name: Annie Mario</li>
                                 <li>Email: annie@example.com</li>
                                 <li>Phone: 1234 567890</li>
-                                <li class="mt--30">
+                                <li className="mt--30">
                                   7398 Smoke Ranch Road <br />
                                   Las Vegas, Nevada 89128
                                 </li>
@@ -264,35 +275,39 @@ const Account = () => {
                         </div>
                       </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-account" role="tabpanel">
-                      <div class="col-lg-9">
-                        <div class="axil-dashboard-account">
-                          <form class="account-details-form">
-                            <div class="row">
-                              <div class="col-lg-6">
-                                <div class="form-group">
+                    <div
+                      className="tab-pane fade"
+                      id="nav-account"
+                      role="tabpanel"
+                    >
+                      <div className="col-lg-9">
+                        <div className="axil-dashboard-account">
+                          <form className="account-details-form">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="form-group">
                                   <label>First Name</label>
                                   <input
                                     type="text"
-                                    class="form-control"
+                                    className="form-control"
                                     value="Annie"
                                   />
                                 </div>
                               </div>
-                              <div class="col-lg-6">
-                                <div class="form-group">
+                              <div className="col-lg-6">
+                                <div className="form-group">
                                   <label>Last Name</label>
                                   <input
                                     type="text"
-                                    class="form-control"
+                                    className="form-control"
                                     value="Mario"
                                   />
                                 </div>
                               </div>
-                              <div class="col-12">
-                                <div class="form-group mb--40">
+                              <div className="col-12">
+                                <div className="form-group mb--40">
                                   <label>Country/ Region</label>
-                                  <select class="select2">
+                                  <select className="select2">
                                     <option value="1">
                                       United Kindom (UK)
                                     </option>
@@ -304,34 +319,40 @@ const Account = () => {
                                     </option>
                                     <option value="1">Australia</option>
                                   </select>
-                                  <p class="b3 mt--10">
+                                  <p className="b3 mt--10">
                                     This will be how your name will be displayed
                                     in the account section and in reviews
                                   </p>
                                 </div>
                               </div>
-                              <div class="col-12">
-                                <h5 class="title">Password Change</h5>
-                                <div class="form-group">
+                              <div className="col-12">
+                                <h5 className="title">Password Change</h5>
+                                <div className="form-group">
                                   <label>Password</label>
                                   <input
                                     type="password"
-                                    class="form-control"
+                                    className="form-control"
                                     value="123456789101112131415"
                                   />
                                 </div>
-                                <div class="form-group">
+                                <div className="form-group">
                                   <label>New Password</label>
-                                  <input type="password" class="form-control" />
+                                  <input
+                                    type="password"
+                                    className="form-control"
+                                  />
                                 </div>
-                                <div class="form-group">
+                                <div className="form-group">
                                   <label>Confirm New Password</label>
-                                  <input type="password" class="form-control" />
+                                  <input
+                                    type="password"
+                                    className="form-control"
+                                  />
                                 </div>
-                                <div class="form-group mb--0">
+                                <div className="form-group mb--0">
                                   <input
                                     type="submit"
-                                    class="axil-btn"
+                                    className="axil-btn"
                                     value="Save Changes"
                                   />
                                 </div>
@@ -347,19 +368,19 @@ const Account = () => {
             </div>
           </div>
         </div>
-        <div class="axil-newsletter-area axil-section-gap pt--0">
-          <div class="container">
-            <div class="etrade-newsletter-wrapper bg_image bg_image--5">
-              <div class="newsletter-content">
-                <span class="title-highlighter highlighter-primary2">
-                  <i class="fas fa-envelope-open"></i>Newsletter
+        <div className="axil-newsletter-area axil-section-gap pt--0">
+          <div className="container">
+            <div className="etrade-newsletter-wrapper bg_image bg_image--5">
+              <div className="newsletter-content">
+                <span className="title-highlighter highlighter-primary2">
+                  <i className="fas fa-envelope-open"></i>Newsletter
                 </span>
-                <h2 class="title mb--40 mb_sm--30">Get weekly update</h2>
-                <div class="input-group newsletter-form">
-                  <div class="position-relative newsletter-inner mb--15">
+                <h2 className="title mb--40 mb_sm--30">Get weekly update</h2>
+                <div className="input-group newsletter-form">
+                  <div className="position-relative newsletter-inner mb--15">
                     <input placeholder="example@gmail.com" type="text" />
                   </div>
-                  <button type="submit" class="axil-btn mb--15">
+                  <button type="submit" className="axil-btn mb--15">
                     Subscribe
                   </button>
                 </div>
