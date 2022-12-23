@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import { Footer } from "../Components/Footer";
 import ServiceArea from "../Components/ServiceArea";
 import { Link } from "react-router-dom";
-import { TeamSlide } from "../Components/SlideLogic";
+import { TeamSlide } from "../Components/SlideLogic/TeamSlide";
 const About = () => {
   return (
     <>

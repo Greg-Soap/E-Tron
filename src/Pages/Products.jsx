@@ -6,7 +6,7 @@ const Products = () => {
   const [Products] = useState(products);
   return Products.map((product) => {
     return (
-      <div className="col-xl-3 col-lg-4 col-sm-6" key={products.id}>
+      <div className="col-xl-3 col-lg-4 col-sm-6" key={product.id}>
         <div className="axil-product product-style-one has-color-pick mt--40">
           <div className="thumbnail">
             <Link to="/SingleProduct">

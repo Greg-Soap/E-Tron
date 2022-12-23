@@ -7972,6 +7972,8 @@ body.open .closeMask {
 .axil-product > .thumbnail > a img {
   border-radius: 6px;
   width: 100%;
+  transform: scale(1);
+  opacity: 1;
   transition: 0.3s;
 }
 .axil-product > .thumbnail > a .hover-img {
@@ -8566,6 +8568,8 @@ body.open .closeMask {
 }
 .axil-product-list .thumbnail img {
   border-radius: 6px;
+  opacity: 1;
+  transform: scale(0.9);
   transition: var(--transition);
 }
 .axil-product-list .product-content {
