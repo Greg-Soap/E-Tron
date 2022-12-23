@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [Search, setSearch] = useState(false);
+  const [Search, setSearch] = useState(true);
   const [Show, setShow] = useState(true);
   const OpenSearch = () => {
     setSearch(!Search);
@@ -199,9 +199,44 @@ const Navbar = () => {
               <div className="header-action">
                 <ul className="action-list">
                   <li className="axil-search">
-                    <a className="header-search-icon" title="Search">
+                    <button
+                      className="header-search-icon"
+                      title="Search"
+                      onClick={OpenSearch}
+                    >
                       <i className="flaticon-magnifying-glass"></i>
-                    </a>
+                    </button>
+                    {!Search ? null : (
+                      <div className="header-search-modal">
+                        <button
+                          className="card-close sidebar-close"
+                          onClick={() => setSearch(false)}
+                        >
+                          <i className="fas fa-times"></i>
+                        </button>
+                        <div className="header-search-wrap">
+                          <div className="card-header">
+                            <form action="#">
+                              <div className="input-group">
+                                <input
+                                  type="search"
+                                  className="form-control"
+                                  name="prod-search"
+                                  id="prod-search"
+                                  placeholder="Write Something...."
+                                />
+                                <button
+                                  type="submit"
+                                  className="axil-btn btn-bg-primary"
+                                >
+                                  <i className="far fa-search"></i>
+                                </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </li>
                   <li className="wishlist">
                     <Link to="/Wishlist">

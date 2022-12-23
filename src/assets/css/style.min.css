@@ -6341,8 +6341,22 @@ button.axil-btn.wishlist-btn:hover:before {
   justify-content: center;
   z-index: 1;
 }
+.header-action > ul > li > button {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-heading);
+  position: relative;
+  display: flex;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
 @media only screen and (max-width: 479px) {
   .header-action > ul > li > a {
+    font-size: 22px;
+  }
+  .header-action > ul > li > button {
     font-size: 22px;
   }
 }
@@ -6350,7 +6364,23 @@ button.axil-btn.wishlist-btn:hover:before {
   display: inline-block;
   line-height: 0;
 }
+.header-action > ul > li > button > i {
+  display: inline-block;
+  line-height: 0;
+}
+
 .header-action > ul > li > a::after {
+  content: "";
+  height: 45px;
+  width: 45px;
+  background-color: var(--color-secondary);
+  transform: scale(0);
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  transition: var(--transition);
+}
+.header-action > ul > li > button::after {
   content: "";
   height: 45px;
   width: 45px;
@@ -6363,6 +6393,10 @@ button.axil-btn.wishlist-btn:hover:before {
 }
 @media only screen and (max-width: 575px) {
   .header-action > ul > li > a::after {
+    height: 35px;
+    width: 35px;
+  }
+  .header-action > ul > li > button::after {
     height: 35px;
     width: 35px;
   }
@@ -6380,6 +6414,21 @@ button.axil-btn.wishlist-btn:hover:before {
   color: var(--color-white);
 }
 .header-action > ul > li > a.open::after {
+  transform: scale(1);
+}
+.header-action > ul > li > button:focus {
+  color: var(--color-heading);
+}
+.header-action > ul > li > button:hover {
+  color: var(--color-white);
+}
+.header-action > ul > li > button:hover::after {
+  transform: scale(1);
+}
+.header-action > ul > li > button.open {
+  color: var(--color-white);
+}
+.header-action > ul > li > button.open::after {
   transform: scale(1);
 }
 .header-action .shopping-cart .cart-dropdown-btn .cart-count {
@@ -6499,7 +6548,6 @@ button.axil-btn.wishlist-btn:hover:before {
   border-radius: 6px;
   padding-left: 40px;
   padding-right: 10px;
-  max-width: 250px;
   height: 50px;
   opacity: 1;
   font-size: 14px;
