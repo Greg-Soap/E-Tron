@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -7,18 +8,18 @@ const SignUp = () => {
         <div className="row align-items-center">
           <div className="col-md-6">
             <a href="index.html" className="site-logo">
-              <img src="assets/images/logo/logo.png" alt="logo" />
+              <img src="./assets/images/logo/logo.png" alt="logo" />
             </a>
           </div>
           <div className="col-md-6">
             <div className="singin-header-btn">
               <p>Already a member?</p>
-              <a
-                href="sign-in.html"
+              <Link
+                to="/Login"
                 className="axil-btn btn-bg-secondary sign-up-btn"
               >
                 Sign In
-              </a>
+              </Link>
             </div>
           </div>
         </div>

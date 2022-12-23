@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Footer } from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import ServiceArea from "../Components/ServiceArea";
@@ -15,7 +16,7 @@ const PrivacyPolicy = () => {
                 <div className="inner">
                   <ul className="axil-breadcrumb">
                     <li className="axil-breadcrumb-item">
-                      <a href="index.html">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li className="separator"></li>
                     <li
@@ -32,7 +33,7 @@ const PrivacyPolicy = () => {
                 <div className="inner">
                   <div className="bradcrumb-thumb">
                     <img
-                      src="assets/images/product/product-45.png"
+                      src="./assets/images/product/product-45.png"
                       alt="Image"
                     />
                   </div>

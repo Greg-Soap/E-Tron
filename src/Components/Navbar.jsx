@@ -4,25 +4,33 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [Search, setSearch] = useState(false);
+  const [Show, setShow] = useState(true);
   const OpenSearch = () => {
     setSearch(!Search);
+  };
+
+  const RemoveCampaign = () => {
+    setShow(false);
   };
 
   return (
     <>
       <header className="header axil-header header-style-1">
-        <div className="header-top-campaign">
-          <div className="container position-relative">
-            <div className="campaign-content">
-              <p>
-                Open Doors To A World Of Fashion <a href="#">Discover More</a>
-              </p>
+        {!Show ? null : (
+          <div className="header-top-campaign">
+            <div className="container position-relative">
+              <div className="campaign-content">
+                <p>
+                  Open Doors To A World Of Fashion <a href="#">Discover More</a>
+                </p>
+              </div>
             </div>
+            <button className="remove-campaign" onClick={RemoveCampaign}>
+              <i className="fal fa-times"></i>
+            </button>
           </div>
-          <button className="remove-campaign">
-            <i className="fal fa-times"></i>
-          </button>
-        </div>
+        )}
+
         <div className="axil-header-top">
           <div className="container">
             <div className="row align-items-center">

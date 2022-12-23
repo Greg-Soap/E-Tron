@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import { Footer } from "../Components/Footer";
 import ServiceArea from "../Components/ServiceArea";
+import { Link } from "react-router-dom";
+import { TeamSlide } from "../Components/SlideLogic";
 const About = () => {
   return (
     <>
@@ -14,7 +16,7 @@ const About = () => {
                 <div className="inner">
                   <ul className="axil-breadcrumb">
                     <li className="axil-breadcrumb-item">
-                      <a href="index.html">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li className="separator"></li>
                     <li
@@ -31,7 +33,7 @@ const About = () => {
                 <div className="inner">
                   <div className="bradcrumb-thumb">
                     <img
-                      src="assets/images/product/product-45.png"
+                      src="./assets/images/product/product-45.png"
                       alt="Image"
                     />
                   </div>
@@ -47,7 +49,7 @@ const About = () => {
                 <div className="about-thumbnail">
                   <div className="thumbnail">
                     <img
-                      src="assets/images/about/about-01.png"
+                      src="./assets/images/about/about-01.png"
                       alt="About Us"
                     />
                   </div>
@@ -95,7 +97,7 @@ const About = () => {
               <div className="col-lg-4">
                 <div className="about-info-box">
                   <div className="thumb">
-                    <img src="assets/images/about/shape-01.png" alt="Shape" />
+                    <img src="./assets/images/about/shape-01.png" alt="Shape" />
                   </div>
                   <div className="content">
                     <h6 className="title">40,000+ Happy Customer</h6>
@@ -109,7 +111,7 @@ const About = () => {
               <div className="col-lg-4">
                 <div className="about-info-box">
                   <div className="thumb">
-                    <img src="assets/images/about/shape-02.png" alt="Shape" />
+                    <img src="./assets/images/about/shape-02.png" alt="Shape" />
                   </div>
                   <div className="content">
                     <h6 className="title">16 Years of Experiences</h6>
@@ -123,7 +125,7 @@ const About = () => {
               <div className="col-lg-4">
                 <div className="about-info-box">
                   <div className="thumb">
-                    <img src="assets/images/about/shape-03.png" alt="Shape" />
+                    <img src="./assets/images/about/shape-03.png" alt="Shape" />
                   </div>
                   <div className="content">
                     <h6 className="title">12 Awards Won</h6>
@@ -147,77 +149,9 @@ const About = () => {
                 </span>
                 <h3 className="title">Expart Management Team</h3>
               </div>
+
               <div className="team-slide-activation slick-layout-wrapper--20 axil-slick-arrow  arrow-top-slide">
-                <div className="slick-single-layout">
-                  <div className="axil-team-member">
-                    <div className="thumbnail">
-                      <img
-                        src="assets/images/team/team-01.png"
-                        alt="Cody Fisher"
-                      />
-                    </div>
-                    <div className="team-content">
-                      <span className="subtitle">Founder</span>
-                      <h5 className="title">Rosalina D. Willson</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="slick-single-layout">
-                  <div className="axil-team-member">
-                    <div className="thumbnail">
-                      <img
-                        src="assets/images/team/team-02.png"
-                        alt="Cody Fisher"
-                      />
-                    </div>
-                    <div className="team-content">
-                      <span className="subtitle">CEO</span>
-                      <h5 className="title">Ukolilix X. Xilanorix</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="slick-single-layout">
-                  <div className="axil-team-member">
-                    <div className="thumbnail">
-                      <img
-                        src="assets/images/team/team-03.png"
-                        alt="Cody Fisher"
-                      />
-                    </div>
-                    <div className="team-content">
-                      <span className="subtitle">Designer</span>
-                      <h5 className="title">Alonso M. Miklonax</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="slick-single-layout">
-                  <div className="axil-team-member">
-                    <div className="thumbnail">
-                      <img
-                        src="assets/images/team/team-04.png"
-                        alt="Cody Fisher"
-                      />
-                    </div>
-                    <div className="team-content">
-                      <span className="subtitle">Designer</span>
-                      <h5 className="title">Alonso M. Miklonax</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="slick-single-layout">
-                  <div className="axil-team-member">
-                    <div className="thumbnail">
-                      <img
-                        src="assets/images/team/team-02.png"
-                        alt="Cody Fisher"
-                      />
-                    </div>
-                    <div className="team-content">
-                      <span className="subtitle">Designer</span>
-                      <h5 className="title">Alonso M. Miklonax</h5>
-                    </div>
-                  </div>
-                </div>
+                <TeamSlide />
               </div>
             </div>
           </div>
@@ -227,7 +161,7 @@ const About = () => {
             <div className="row align-items-center mb--80 mb_sm--60">
               <div className="col-lg-5">
                 <div className="about-thumbnail">
-                  <img src="assets/images/about/about-02.png" alt="about" />
+                  <img src="./assets/images/about/about-02.png" alt="about" />
                 </div>
               </div>
               <div className="col-lg-7">
@@ -250,7 +184,7 @@ const About = () => {
             <div className="row align-items-center">
               <div className="col-lg-5 order-lg-2">
                 <div className="about-thumbnail">
-                  <img src="assets/images/about/about-03.png" alt="about" />
+                  <img src="./assets/images/about/about-03.png" alt="about" />
                 </div>
               </div>
               <div className="col-lg-7 order-lg-1">

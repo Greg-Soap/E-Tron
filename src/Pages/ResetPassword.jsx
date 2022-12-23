@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ResetPassword = () => {
   return (
@@ -7,7 +8,7 @@ const ResetPassword = () => {
         <div className="row align-items-center">
           <div className="col-xl-4 col-sm-6">
             <a href="index.html" className="site-logo">
-              <img src="assets/images/logo/logo.png" alt="logo" />
+              <img src="./assets/images/logo/logo.png" alt="logo" />
             </a>
           </div>
           <div className="col-md-2 d-lg-block d-none">
@@ -19,9 +20,9 @@ const ResetPassword = () => {
             <div className="singin-header-btn">
               <p>
                 Already a member?{" "}
-                <a href="sign-in.html" className="sign-in-btn">
+                <Link to="/Login" className="sign-in-btn">
                   Sign In
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -62,7 +63,7 @@ const ResetPassword = () => {
                     type="submit"
                     className="axil-btn btn-bg-primary submit-btn"
                   >
-                    Resrt Password
+                    Reset Password
                   </button>
                 </div>
               </form>

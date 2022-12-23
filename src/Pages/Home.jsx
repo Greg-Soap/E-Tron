@@ -2,6 +2,7 @@ import React from "react";
 import { Footer } from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import { Link } from "react-router-dom";
+import Products from "./Products";
 import ServiceArea from "../Components/ServiceArea";
 
 const Home = () => {
@@ -36,25 +37,25 @@ const Home = () => {
                             <ul>
                               <li>
                                 <img
-                                  src="assets/images/others/author1.png"
+                                  src="./assets/images/others/author1.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author2.png"
+                                  src="./assets/images/others/author2.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author3.png"
+                                  src="./assets/images/others/author3.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author4.png"
+                                  src="./assets/images/others/author4.png"
                                   alt="Author"
                                 />
                               </li>
@@ -91,25 +92,25 @@ const Home = () => {
                             <ul>
                               <li>
                                 <img
-                                  src="assets/images/others/author1.png"
+                                  src="./assets/images/others/author1.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author2.png"
+                                  src="./assets/images/others/author2.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author3.png"
+                                  src="./assets/images/others/author3.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author4.png"
+                                  src="./assets/images/others/author4.png"
                                   alt="Author"
                                 />
                               </li>
@@ -146,25 +147,25 @@ const Home = () => {
                             <ul>
                               <li>
                                 <img
-                                  src="assets/images/others/author1.png"
+                                  src="./assets/images/others/author1.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author2.png"
+                                  src="./assets/images/others/author2.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author3.png"
+                                  src="./assets/images/others/author3.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author4.png"
+                                  src="./assets/images/others/author4.png"
                                   alt="Author"
                                 />
                               </li>
@@ -201,25 +202,25 @@ const Home = () => {
                             <ul>
                               <li>
                                 <img
-                                  src="assets/images/others/author1.png"
+                                  src="./assets/images/others/author1.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author2.png"
+                                  src="./assets/images/others/author2.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author3.png"
+                                  src="./assets/images/others/author3.png"
                                   alt="Author"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="assets/images/others/author4.png"
+                                  src="./assets/images/others/author4.png"
                                   alt="Author"
                                 />
                               </li>
@@ -253,7 +254,7 @@ const Home = () => {
                       data-sal-duration="1500"
                     >
                       <img
-                        src="assets/images/product/product-38.png"
+                        src="./assets/images/product/product-38.png"
                         alt="Product"
                       />
                       <div className="product-price">
@@ -268,7 +269,7 @@ const Home = () => {
                       data-sal-duration="1500"
                     >
                       <img
-                        src="assets/images/product/product-39.png"
+                        src="./assets/images/product/product-39.png"
                         alt="Product"
                       />
                       <div className="product-price">
@@ -278,7 +279,7 @@ const Home = () => {
                     </div>
                     <div className="single-slide slick-slide">
                       <img
-                        src="assets/images/product/product-38.png"
+                        src="./assets/images/product/product-38.png"
                         alt="Product"
                       />
                       <div className="product-price">
@@ -288,7 +289,7 @@ const Home = () => {
                     </div>
                     <div className="single-slide slick-slide">
                       <img
-                        src="assets/images/product/product-39.png"
+                        src="./assets/images/product/product-39.png"
                         alt="Product"
                       />
                       <div className="product-price">
@@ -303,10 +304,10 @@ const Home = () => {
           </div>
           <ul className="shape-group">
             <li className="shape-1">
-              <img src="assets/images/others/shape-1.png" alt="Shape" />
+              <img src="./assets/images/others/shape-1.png" alt="Shape" />
             </li>
             <li className="shape-2">
-              <img src="assets/images/others/shape-2.png" alt="Shape" />
+              <img src="./assets/images/others/shape-2.png" alt="Shape" />
             </li>
           </ul>
         </div>
@@ -331,7 +332,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-4.png"
+                      src="./assets/images/product/categories/elec-4.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Phones</h6>
@@ -349,7 +350,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-5.png"
+                      src="./assets/images/product/categories/elec-5.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Computers</h6>
@@ -367,7 +368,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-11.png"
+                      src="./assets/images/product/categories/elec-11.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Accessories</h6>
@@ -385,7 +386,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-6.png"
+                      src="./assets/images/product/categories/elec-6.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Laptops</h6>
@@ -403,7 +404,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-2.png"
+                      src="./assets/images/product/categories/elec-2.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Monitors</h6>
@@ -421,7 +422,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-7.png"
+                      src="./assets/images/product/categories/elec-7.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Networking</h6>
@@ -439,7 +440,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-8.png"
+                      src="./assets/images/product/categories/elec-8.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">PC Gaming</h6>
@@ -452,7 +453,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-1.png"
+                      src="./assets/images/product/categories/elec-1.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Smartwatches</h6>
@@ -465,7 +466,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-9.png"
+                      src="./assets/images/product/categories/elec-9.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Headphones</h6>
@@ -478,7 +479,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-10.png"
+                      src="./assets/images/product/categories/elec-10.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Camera & Photo</h6>
@@ -491,7 +492,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-8.png"
+                      src="./assets/images/product/categories/elec-8.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Video Games</h6>
@@ -504,7 +505,7 @@ const Home = () => {
                   <a href="#">
                     <img
                       className="img-fluid"
-                      src="assets/images/product/categories/elec-1.png"
+                      src="./assets/images/product/categories/elec-1.png"
                       alt="product categorie"
                     />
                     <h6 className="cat-title">Sports</h6>
@@ -537,7 +538,7 @@ const Home = () => {
                 <div className="col-xl-7 col-lg-6">
                   <div className="poster-countdown-thumbnail">
                     <img
-                      src="assets/images/product/poster/poster-03.png"
+                      src="./assets/images/product/poster/poster-03.png"
                       alt="Poster Product"
                     />
                     <div className="music-singnal">
@@ -565,1086 +566,18 @@ const Home = () => {
             <div className="explore-product-activation slick-layout-wrapper slick-layout-wrapper--15 axil-slick-arrow arrow-top-slide">
               <div className="slick-single-layout">
                 <div className="row row--15">
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="200"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            className="main-img"
-                            src="assets/images/product/electric/product-01.png"
-                            alt="Product Images"
-                          />
-                          <img
-                            className="hover-img"
-                            src="assets/images/product/electric/product-08.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Add to Cart</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <div className="product-rating">
-                            <span className="icon">
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                            </span>
-                            <span className="rating-number">(64)</span>
-                          </div>
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              Yantiti Leather & Canvas Bags
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="300"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            src="assets/images/product/electric/product-02.png"
-                            alt="Product Images"
-                          />
-                          <img
-                            className="hover-img"
-                            src="assets/images/product/electric/product-06.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">Level 20 RGB Cherry</Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="400"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            src="assets/images/product/electric/product-03.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">Logitech Streamcam</Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="500"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            src="assets/images/product/electric/product-04.png"
-                            alt="Product Images"
-                          />
-                          <img
-                            className="hover-img"
-                            src="assets/images/product/electric/product-05.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <div className="product-rating">
-                            <span className="icon">
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                            </span>
-                            <span className="rating-number">(44)</span>
-                          </div>
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="200"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            src="assets/images/product/electric/product-05.png"
-                            alt="Product Images"
-                          />
-                          <img
-                            className="hover-img"
-                            src="assets/images/product/electric/product-04.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">Bass Meets Clarity</Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="300"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            src="assets/images/product/electric/product-06.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">Mice Logitech</Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="400"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            src="assets/images/product/electric/product-07.png"
-                            alt="Product Images"
-                          />
-                          <img
-                            className="hover-img"
-                            src="assets/images/product/electric/product-08.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <div className="product-rating">
-                            <span className="icon">
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                              <i className="fas fa-star"></i>
-                            </span>
-                            <span className="rating-number">(64)</span>
-                          </div>
-                          <h5 className="title">
-                            <Link to="/SingleProduct">Zone Headphone</Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            data-sal="zoom-out"
-                            data-sal-delay="500"
-                            data-sal-duration="800"
-                            loading="lazy"
-                            src="assets/images/product/electric/product-08.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="slick-single-layout">
-                <div className="row row--15">
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-01.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              Yantiti Leather & Canvas Bags
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-02.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-03.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-04.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-05.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-06.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-07.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                    <div className="axil-product product-style-one">
-                      <div className="thumbnail">
-                        <Link to="/SingleProduct">
-                          <img
-                            src="assets/images/product/electric/product-08.png"
-                            alt="Product Images"
-                          />
-                        </Link>
-                        <div className="label-block label-right">
-                          <div className="product-badget">20% Off</div>
-                        </div>
-                        <div className="product-hover-action">
-                          <ul className="cart-action">
-                            <li className="quickview">
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#quick-view-modal"
-                              >
-                                <i className="far fa-eye"></i>
-                              </a>
-                            </li>
-                            <li className="select-option">
-                              <Link to="/SingleProduct">Select Option</Link>
-                            </li>
-                            <li className="wishlist">
-                              <Link to="/Wishlist">
-                                <i className="far fa-heart"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="product-content">
-                        <div className="inner">
-                          <h5 className="title">
-                            <Link to="/SingleProduct">
-                              3D™ wireless headset
-                            </Link>
-                          </h5>
-                          <div className="product-price-variant">
-                            <span className="price current-price">$29.99</span>
-                            <span className="price old-price">$49.99</span>
-                          </div>
-                          <div className="color-variant-wrapper">
-                            <ul className="color-variant">
-                              <li className="color-extra-01 active">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-02">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                              <li className="color-extra-03">
-                                <span>
-                                  <span className="color"></span>
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <Products />
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-12 text-center mt--20 mt_sm--0">
-                <a
-                  href="shop.html"
+                <Link
+                  to="/Shop"
                   className="axil-btn btn-bg-lighter btn-load-more"
                 >
                   View All Products
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1671,7 +604,7 @@ const Home = () => {
                 <div className="media">
                   <div className="thumbnail">
                     <img
-                      src="assets/images/testimonial/image-1.png"
+                      src="./assets/images/testimonial/image-1.png"
                       alt="testimonial image"
                     />
                   </div>
@@ -1693,7 +626,7 @@ const Home = () => {
                 <div className="media">
                   <div className="thumbnail">
                     <img
-                      src="assets/images/testimonial/image-2.png"
+                      src="./assets/images/testimonial/image-2.png"
                       alt="testimonial image"
                     />
                   </div>
@@ -1715,7 +648,7 @@ const Home = () => {
                 <div className="media">
                   <div className="thumbnail">
                     <img
-                      src="assets/images/testimonial/image-3.png"
+                      src="./assets/images/testimonial/image-3.png"
                       alt="testimonial image"
                     />
                   </div>
@@ -1737,7 +670,7 @@ const Home = () => {
                 <div className="media">
                   <div className="thumbnail">
                     <img
-                      src="assets/images/testimonial/image-2.png"
+                      src="./assets/images/testimonial/image-2.png"
                       alt="testimonial image"
                     />
                   </div>
@@ -1768,7 +701,7 @@ const Home = () => {
                           data-sal="zoom-out"
                           data-sal-delay="200"
                           data-sal-duration="500"
-                          src="assets/images/product/electric/product-05.png"
+                          src="./assets/images/product/electric/product-05.png"
                           alt="Product Images"
                         />
                       </Link>
@@ -1837,7 +770,7 @@ const Home = () => {
                           data-sal="zoom-out"
                           data-sal-delay="300"
                           data-sal-duration="500"
-                          src="assets/images/product/electric/product-06.png"
+                          src="./assets/images/product/electric/product-06.png"
                           alt="Product Images"
                         />
                       </Link>
@@ -1903,7 +836,7 @@ const Home = () => {
                           data-sal="zoom-out"
                           data-sal-delay="400"
                           data-sal-duration="500"
-                          src="assets/images/product/electric/product-07.png"
+                          src="./assets/images/product/electric/product-07.png"
                           alt="Product Images"
                         />
                       </Link>
@@ -1972,7 +905,7 @@ const Home = () => {
                           data-sal="zoom-out"
                           data-sal-delay="500"
                           data-sal-duration="500"
-                          src="assets/images/product/electric/product-08.png"
+                          src="./assets/images/product/electric/product-08.png"
                           alt="Product Images"
                         />
                       </Link>
@@ -2041,7 +974,7 @@ const Home = () => {
                           data-sal="zoom-out"
                           data-sal-delay="100"
                           data-sal-duration="500"
-                          src="assets/images/product/electric/product-04.png"
+                          src="./assets/images/product/electric/product-04.png"
                           alt="Product Images"
                         />
                       </Link>
@@ -2124,7 +1057,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="100"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-09.png"
+                          src="./assets/images/product/electric/product-09.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2168,7 +1101,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="200"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-10.png"
+                          src="./assets/images/product/electric/product-10.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2211,7 +1144,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="300"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-11.png"
+                          src="./assets/images/product/electric/product-11.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2254,7 +1187,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="400"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-12.png"
+                          src="./assets/images/product/electric/product-12.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2297,7 +1230,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="500"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-13.png"
+                          src="./assets/images/product/electric/product-13.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2340,7 +1273,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="600"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-14.png"
+                          src="./assets/images/product/electric/product-14.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2383,7 +1316,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="400"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-15.png"
+                          src="./assets/images/product/electric/product-15.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2426,7 +1359,7 @@ const Home = () => {
                           data-sal="zoom-in"
                           data-sal-delay="500"
                           data-sal-duration="1500"
-                          src="assets/images/product/electric/product-16.png"
+                          src="./assets/images/product/electric/product-16.png"
                           alt="Yantiti Leather Bags"
                         />
                       </Link>
@@ -2477,7 +1410,10 @@ const Home = () => {
               <div className="col">
                 <div className="service-box">
                   <div className="icon">
-                    <img src="assets/images/icons/service6.png" alt="Service" />
+                    <img
+                      src="./assets/images/icons/service6.png"
+                      alt="Service"
+                    />
                   </div>
                   <h6 className="title">Fast &amp; Secure Delivery</h6>
                 </div>
@@ -2485,7 +1421,10 @@ const Home = () => {
               <div className="col">
                 <div className="service-box">
                   <div className="icon">
-                    <img src="assets/images/icons/service7.png" alt="Service" />
+                    <img
+                      src="./assets/images/icons/service7.png"
+                      alt="Service"
+                    />
                   </div>
                   <h6 className="title">100% Guarantee On Product</h6>
                 </div>
@@ -2493,15 +1432,10 @@ const Home = () => {
               <div className="col">
                 <div className="service-box">
                   <div className="icon">
-                    <img src="assets/images/icons/service8.png" alt="Service" />
-                  </div>
-                  <h6 className="title">24 Hour Return Policy</h6>
-                </div>
-              </div>
-              <div className="col">
-                <div className="service-box">
-                  <div className="icon">
-                    <img src="assets/images/icons/service9.png" alt="Service" />
+                    <img
+                      src="./assets/images/icons/service8.png"
+                      alt="Service"
+                    />
                   </div>
                   <h6 className="title">24 Hour Return Policy</h6>
                 </div>
@@ -2510,7 +1444,18 @@ const Home = () => {
                 <div className="service-box">
                   <div className="icon">
                     <img
-                      src="assets/images/icons/service10.png"
+                      src="./assets/images/icons/service9.png"
+                      alt="Service"
+                    />
+                  </div>
+                  <h6 className="title">24 Hour Return Policy</h6>
+                </div>
+              </div>
+              <div className="col">
+                <div className="service-box">
+                  <div className="icon">
+                    <img
+                      src="./assets/images/icons/service10.png"
                       alt="Service"
                     />
                   </div>
@@ -2527,7 +1472,7 @@ const Home = () => {
                 <div className="single-poster">
                   <a href="shop.html">
                     <img
-                      src="assets/images/product/poster/poster-01.png"
+                      src="./assets/images/product/poster/poster-01.png"
                       alt="eTrade promotion poster"
                     />
                     <div className="poster-content">
@@ -2548,7 +1493,7 @@ const Home = () => {
                 <div className="single-poster">
                   <a href="shop-sidebar.html">
                     <img
-                      src="assets/images/product/poster/poster-02.png"
+                      src="./assets/images/product/poster/poster-02.png"
                       alt="eTrade promotion poster"
                     />
                     <div className="poster-content content-left">

@@ -16,44 +16,44 @@ const CheckOut = () => {
                         <div className="single-product-thumbnail product-large-thumbnail-3 axil-product">
                           <div className="thumbnail">
                             <a
-                              href="assets/images/product/product-big-01.png"
+                              href="./assets/images/product/product-big-01.png"
                               className="popup-zoom"
                             >
                               <img
-                                src="assets/images/product/product-big-01.png"
+                                src="./assets/images/product/product-big-01.png"
                                 alt="Product Images"
                               />
                             </a>
                           </div>
                           <div className="thumbnail">
                             <a
-                              href="assets/images/product/product-big-02.png"
+                              href="./assets/images/product/product-big-02.png"
                               className="popup-zoom"
                             >
                               <img
-                                src="assets/images/product/product-big-02.png"
+                                src="./assets/images/product/product-big-02.png"
                                 alt="Product Images"
                               />
                             </a>
                           </div>
                           <div className="thumbnail">
                             <a
-                              href="assets/images/product/product-big-03.png"
+                              href="./assets/images/product/product-big-03.png"
                               className="popup-zoom"
                             >
                               <img
-                                src="assets/images/product/product-big-03.png"
+                                src="./assets/images/product/product-big-03.png"
                                 alt="Product Images"
                               />
                             </a>
                           </div>
                           <div className="thumbnail">
                             <a
-                              href="assets/images/product/product-big-02.png"
+                              href="./assets/images/product/product-big-02.png"
                               className="popup-zoom"
                             >
                               <img
-                                src="assets/images/product/product-big-02.png"
+                                src="./assets/images/product/product-big-02.png"
                                 alt="Product Images"
                               />
                             </a>
@@ -64,7 +64,7 @@ const CheckOut = () => {
                         </div>
                         <div className="product-quick-view position-view">
                           <a
-                            href="assets/images/product/product-big-01.png"
+                            href="./assets/images/product/product-big-01.png"
                             className="popup-zoom"
                           >
                             <i className="far fa-search-plus"></i>
@@ -76,25 +76,25 @@ const CheckOut = () => {
                       <div className="product-small-thumb-3 small-thumb-wrapper">
                         <div className="small-thumb-img">
                           <img
-                            src="assets/images/product/product-thumb/thumb-08.png"
+                            src="./assets/images/product/product-thumb/thumb-08.png"
                             alt="thumbnail"
                           />
                         </div>
                         <div className="small-thumb-img">
                           <img
-                            src="assets/images/product/product-thumb/thumb-07.png"
+                            src="./assets/images/product/product-thumb/thumb-07.png"
                             alt="thumbnail"
                           />
                         </div>
                         <div className="small-thumb-img">
                           <img
-                            src="assets/images/product/product-thumb/thumb-09.png"
+                            src="./assets/images/product/product-thumb/thumb-09.png"
                             alt="thumbnail"
                           />
                         </div>
                         <div className="small-thumb-img">
                           <img
-                            src="assets/images/product/product-thumb/thumb-07.png"
+                            src="./assets/images/product/product-thumb/thumb-07.png"
                             alt="thumbnail"
                           />
                         </div>
@@ -286,7 +286,7 @@ const CheckOut = () => {
                           <li className="single-features">
                             <div className="icon">
                               <img
-                                src="assets/images/product/product-thumb/icon-3.png"
+                                src="./assets/images/product/product-thumb/icon-3.png"
                                 alt="icon"
                               />
                             </div>
@@ -295,7 +295,7 @@ const CheckOut = () => {
                           <li className="single-features">
                             <div className="icon">
                               <img
-                                src="assets/images/product/product-thumb/icon-2.png"
+                                src="./assets/images/product/product-thumb/icon-2.png"
                                 alt="icon"
                               />
                             </div>
@@ -304,7 +304,7 @@ const CheckOut = () => {
                           <li className="single-features">
                             <div className="icon">
                               <img
-                                src="assets/images/product/product-thumb/icon-1.png"
+                                src="./assets/images/product/product-thumb/icon-1.png"
                                 alt="icon"
                               />
                             </div>
@@ -391,7 +391,7 @@ const CheckOut = () => {
                                 <div className="single-comment">
                                   <div className="comment-img">
                                     <img
-                                      src="assets/images/blog/author-image-4.png"
+                                      src="./assets/images/blog/author-image-4.png"
                                       alt="Author Images"
                                     />
                                   </div>
@@ -443,7 +443,7 @@ const CheckOut = () => {
                                 <div className="single-comment">
                                   <div className="comment-img">
                                     <img
-                                      src="assets/images/blog/author-image-4.png"
+                                      src="./assets/images/blog/author-image-4.png"
                                       alt="Author Images"
                                     />
                                   </div>
@@ -495,7 +495,7 @@ const CheckOut = () => {
                                 <div className="single-comment">
                                   <div className="comment-img">
                                     <img
-                                      src="assets/images/blog/author-image-5.png"
+                                      src="./assets/images/blog/author-image-5.png"
                                       alt="Author Images"
                                     />
                                   </div>
@@ -635,7 +635,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-01.png"
+                        src="./assets/images/product/electric/product-01.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -650,7 +650,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a
@@ -702,7 +702,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-02.png"
+                        src="./assets/images/product/electric/product-02.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -717,7 +717,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a
@@ -769,7 +769,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-03.png"
+                        src="./assets/images/product/electric/product-03.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -784,7 +784,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a
@@ -836,7 +836,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-04.png"
+                        src="./assets/images/product/electric/product-04.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -851,7 +851,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a
@@ -903,7 +903,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-05.png"
+                        src="./assets/images/product/electric/product-05.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -918,7 +918,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a
@@ -970,7 +970,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-03.png"
+                        src="./assets/images/product/electric/product-03.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -985,7 +985,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a
@@ -1037,7 +1037,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-04.png"
+                        src="./assets/images/product/electric/product-04.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -1052,7 +1052,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a
@@ -1103,7 +1103,7 @@ const CheckOut = () => {
                   <div className="thumbnail">
                     <Link to="/SingleProduct">
                       <img
-                        src="assets/images/product/electric/product-05.png"
+                        src="./assets/images/product/electric/product-05.png"
                         alt="Product Images"
                       />
                     </Link>
@@ -1118,7 +1118,7 @@ const CheckOut = () => {
                           </Link>
                         </li>
                         <li className="select-option">
-                          <a href="cart.html">Add to Cart</a>
+                          <Link to="/Cart">Add to Cart</Link>
                         </li>
                         <li className="quickview">
                           <a

@@ -25,6 +25,9 @@ import CheckOut from "./Pages/CheckOut";
 import WishList from "./Pages/WishList";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import SingleProduct from "./Pages/SingleProduct";
+import ForgotPassword from "./Pages/ForgotPassword";
+import ResetPassword from "./Pages/ResetPassword";
+import ErrorPage from "./Pages/ErrorPage";
 const App = () => {
   return (
     <Router>
@@ -41,6 +44,9 @@ const App = () => {
         <Route path="/SingleProduct" element={<SingleProduct />} />
         <Route path="/Login" element={<SignIn />} />
         <Route path="/Register" element={<SignUp />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} />
+        <Route path="/ResetPassword" element={<ResetPassword />} />
+        <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </Router>
   );

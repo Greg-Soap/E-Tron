@@ -39,7 +39,7 @@ const WishList = () => {
                     <td className="product-thumbnail">
                       <Link to="/SingleProduct">
                         <img
-                          src="assets/images/product/electric/product-01.png"
+                          src="./assets/images/product/electric/product-01.png"
                           alt="Digital Product"
                         />
                       </Link>
@@ -68,7 +68,7 @@ const WishList = () => {
                     <td className="product-thumbnail">
                       <a href="single-product-2.html">
                         <img
-                          src="assets/images/product/electric/product-02.png"
+                          src="./assets/images/product/electric/product-02.png"
                           alt="Digital Product"
                         />
                       </a>
@@ -99,7 +99,7 @@ const WishList = () => {
                     <td className="product-thumbnail">
                       <a href="single-product-3.html">
                         <img
-                          src="assets/images/product/electric/product-03.png"
+                          src="./assets/images/product/electric/product-03.png"
                           alt="Digital Product"
                         />
                       </a>

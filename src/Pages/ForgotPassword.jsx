@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ForgotPassword = () => {
   return (
@@ -7,7 +8,7 @@ const ForgotPassword = () => {
         <div className="row align-items-center">
           <div className="col-xl-4 col-sm-6">
             <a href="index.html" className="site-logo">
-              <img src="assets/images/logo/logo.png" alt="logo" />
+              <img src="./assets/images/logo/logo.png" alt="logo" />
             </a>
           </div>
           <div className="col-md-2 d-lg-block d-none">
@@ -18,12 +19,12 @@ const ForgotPassword = () => {
           <div className="col-xl-6 col-lg-4 col-sm-6">
             <div className="singin-header-btn">
               <p>Already a member?</p>
-              <a
-                href="sign-in.html"
+              <Link
+                href="/Login"
                 className="sign-up-btn axil-btn btn-bg-secondary"
               >
                 Sign In
-              </a>
+              </Link>
             </div>
           </div>
         </div>

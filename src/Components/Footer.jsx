@@ -3,47 +3,48 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer class="axil-footer-area footer-style-2">
-      <div class="footer-top separator-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <div class="axil-footer-widget">
-                <h5 class="widget-title">Support</h5>
-                <div class="logo mb--30">
+    <footer className="axil-footer-area footer-style-2">
+      <div className="footer-top separator-top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              <div className="axil-footer-widget">
+                <h5 className="widget-title">Support</h5>
+                <div className="logo mb--30">
                   <Link to="/">
                     <img
-                      class="light-logo"
+                      className="light-logo"
                       src="assets/images/logo/logo.png"
                       alt="Logo Images"
                     />
                   </Link>
                 </div>
-                <div class="inner">
+                <div className="inner">
                   <p>
                     685 Market Street, <br />
                     Las Vegas, LA 95820, <br />
                     United States.
                   </p>
-                  <ul class="support-list-item">
+                  <ul className="support-list-item">
                     <li>
                       <a href="mailto:example@domain.com">
-                        <i class="fal fa-envelope-open"></i> example@domain.com
+                        <i className="fal fa-envelope-open"></i>{" "}
+                        example@domain.com
                       </a>
                     </li>
                     <li>
                       <a href="tel:(+01)850-315-5862">
-                        <i class="fal fa-phone-alt"></i> (+01) 850-315-5862
+                        <i className="fal fa-phone-alt"></i> (+01) 850-315-5862
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="axil-footer-widget">
-                <h5 class="widget-title">Account</h5>
-                <div class="inner">
+            <div className="col-lg-3 col-sm-6">
+              <div className="axil-footer-widget">
+                <h5 className="widget-title">Account</h5>
+                <div className="inner">
                   <ul>
                     <li>
                       <Link to="/Account">My Account</Link>
@@ -64,10 +65,10 @@ export const Footer = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="axil-footer-widget">
-                <h5 class="widget-title">Quick Link</h5>
-                <div class="inner">
+            <div className="col-lg-3 col-sm-6">
+              <div className="axil-footer-widget">
+                <h5 className="widget-title">Quick Link</h5>
+                <div className="inner">
                   <ul>
                     <li>
                       <Link to="/PrivacyPolicy">Privacy Policy</Link>
@@ -85,16 +86,16 @@ export const Footer = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="axil-footer-widget">
-                <h5 class="widget-title">Download App</h5>
-                <div class="inner">
+            <div className="col-lg-3 col-sm-6">
+              <div className="axil-footer-widget">
+                <h5 className="widget-title">Download App</h5>
+                <div className="inner">
                   <span>Save $3 With App & New User only</span>
-                  <div class="download-btn-group">
-                    <div class="qr-code">
+                  <div className="download-btn-group">
+                    <div className="qr-code">
                       <img src="assets/images/others/qr.png" alt="Axilthemes" />
                     </div>
-                    <div class="app-link">
+                    <div className="app-link">
                       <a href="#">
                         <img
                           src="assets/images/others/app-store.png"
@@ -115,45 +116,42 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="copyright-area copyright-default separator-top">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-4">
-              <div class="social-share">
+      <div className="copyright-area copyright-default separator-top">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-4">
+              <div className="social-share">
                 <a href="#">
-                  <i class="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
                 <a href="#">
-                  <i class="fab fa-discord"></i>
+                  <i className="fab fa-discord"></i>
                 </a>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-12">
-              <div class="copyright-left d-flex flex-wrap justify-content-center">
-                <ul class="quick-link">
+            <div className="col-xl-4 col-lg-12">
+              <div className="copyright-left d-flex flex-wrap justify-content-center">
+                <ul className="quick-link">
                   <li>
-                    © 2022. All rights reserved by{" "}
-                    <a target="_blank" href="https://axilthemes.com/">
-                      Axilthemes
-                    </a>
+                    © 2022. All rights reserved by <span>Retro Developers</span>
                     .
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-12">
-              <div class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
-                <span class="card-text">Accept For</span>
-                <ul class="payment-icons-bottom quick-link">
+            <div className="col-xl-4 col-lg-12">
+              <div className="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
+                <span className="card-text">Accept For</span>
+                <ul className="payment-icons-bottom quick-link">
                   <li>
                     <img
                       src="assets/images/icons/cart/cart-1.png"

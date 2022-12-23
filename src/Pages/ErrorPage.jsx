@@ -43,7 +43,7 @@ const ErrorPage = () => {
                 data-sal-duration="800"
                 data-sal-delay="400"
               >
-                <img src="assets/images/others/404.png" alt="404" />
+                <img src="./assets/images/others/404.png" alt="404" />
               </div>
             </div>
           </div>
