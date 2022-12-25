@@ -55,7 +55,7 @@ export const NewArrivalsProductActivation = () => {
       <div className="slick-single-layout">
         <div className="axil-product product-style-two">
           <div className="thumbnail">
-            <Link to="/SingleProduct">
+            <Link to="/Product">
               <img
                 data-sal="zoom-out"
                 data-sal-delay="200"
@@ -90,7 +90,7 @@ export const NewArrivalsProductActivation = () => {
                 </ul>
               </div>
               <h5 className="title">
-                <Link to="/SingleProduct">Demon's Souls</Link>
+                <Link to="/Product">Demon's Souls</Link>
               </h5>
               <div className="product-price-variant">
                 <span className="price old-price">$40</span>
@@ -108,7 +108,7 @@ export const NewArrivalsProductActivation = () => {
                     </a>
                   </li>
                   <li className="select-option">
-                    <Link to="/SingleProduct">Add to Cart</Link>
+                    <Link to="/Product">Add to Cart</Link>
                   </li>
                   <li className="wishlist">
                     <Link to="/Wishlist">
@@ -124,7 +124,7 @@ export const NewArrivalsProductActivation = () => {
       <div className="slick-single-layout">
         <div className="axil-product product-style-two">
           <div className="thumbnail">
-            <Link to="/SingleProduct">
+            <Link to="/Product">
               <img
                 data-sal="zoom-out"
                 data-sal-delay="300"
@@ -156,7 +156,7 @@ export const NewArrivalsProductActivation = () => {
                 </ul>
               </div>
               <h5 className="title">
-                <Link to="/SingleProduct">Google Home</Link>
+                <Link to="/Product">Google Home</Link>
               </h5>
               <div className="product-price-variant">
                 <span className="price old-price">$50</span>
@@ -175,7 +175,7 @@ export const NewArrivalsProductActivation = () => {
                   </a>
                 </li>
                 <li className="select-option">
-                  <Link to="/SingleProduct">Select Option</Link>
+                  <Link to="/Product">Select Option</Link>
                 </li>
                 <li className="wishlist">
                   <Link to="/Wishlist">
@@ -190,7 +190,7 @@ export const NewArrivalsProductActivation = () => {
       <div className="slick-single-layout">
         <div className="axil-product product-style-two">
           <div className="thumbnail">
-            <Link to="/SingleProduct">
+            <Link to="/Product">
               <img
                 data-sal="zoom-out"
                 data-sal-delay="400"
@@ -225,7 +225,7 @@ export const NewArrivalsProductActivation = () => {
                 </ul>
               </div>
               <h5 className="title">
-                <Link to="/SingleProduct">Netfilx Remot</Link>
+                <Link to="/Product">Netfilx Remot</Link>
               </h5>
               <div className="product-price-variant">
                 <span className="price old-price">$60</span>
@@ -243,7 +243,7 @@ export const NewArrivalsProductActivation = () => {
                     </a>
                   </li>
                   <li className="select-option">
-                    <Link to="/SingleProduct">Add to Cart</Link>
+                    <Link to="/Product">Add to Cart</Link>
                   </li>
                   <li className="wishlist">
                     <Link to="/Wishlist">
@@ -259,7 +259,7 @@ export const NewArrivalsProductActivation = () => {
       <div className="slick-single-layout">
         <div className="axil-product product-style-two">
           <div className="thumbnail">
-            <Link to="/SingleProduct">
+            <Link to="/Product">
               <img
                 data-sal="zoom-out"
                 data-sal-delay="500"
@@ -294,7 +294,7 @@ export const NewArrivalsProductActivation = () => {
                 </ul>
               </div>
               <h5 className="title">
-                <Link to="/SingleProduct">Digital Accessories</Link>
+                <Link to="/Product">Digital Accessories</Link>
               </h5>
               <div className="product-price-variant">
                 <span className="price old-price">$30</span>
@@ -312,7 +312,7 @@ export const NewArrivalsProductActivation = () => {
                     </a>
                   </li>
                   <li className="select-option">
-                    <Link to="/SingleProduct">Add to Cart</Link>
+                    <Link to="/Product">Add to Cart</Link>
                   </li>
                   <li className="wishlist">
                     <Link to="/Wishlist">
@@ -328,7 +328,7 @@ export const NewArrivalsProductActivation = () => {
       <div className="slick-single-layout">
         <div className="axil-product product-style-two">
           <div className="thumbnail">
-            <Link to="/SingleProduct">
+            <Link to="/Product">
               <img
                 data-sal="zoom-out"
                 data-sal-delay="100"
@@ -363,7 +363,7 @@ export const NewArrivalsProductActivation = () => {
                 </ul>
               </div>
               <h5 className="title">
-                <Link to="/SingleProduct">PS5 Smart Remote</Link>
+                <Link to="/Product">PS5 Smart Remote</Link>
               </h5>
               <div className="product-price-variant">
                 <span className="price old-price">$50</span>
@@ -381,7 +381,7 @@ export const NewArrivalsProductActivation = () => {
                     </a>
                   </li>
                   <li className="select-option">
-                    <Link to="/SingleProduct">Add to Cart</Link>
+                    <Link to="/Product">Add to Cart</Link>
                   </li>
                   <li className="wishlist">
                     <Link to="/Wishlist">

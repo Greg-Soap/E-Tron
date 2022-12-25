@@ -42,7 +42,7 @@ const Cart = () => {
                         </a>
                       </td>
                       <td className="product-thumbnail">
-                        <Link to="/SingleProduct">
+                        <Link to="/Product">
                           <img
                             src="./assets/images/product/electric/product-01.png"
                             alt="Digital Product"
@@ -50,7 +50,7 @@ const Cart = () => {
                         </Link>
                       </td>
                       <td className="product-title">
-                        <Link to="/SingleProduct">Wireless PS Handler</Link>
+                        <Link to="/Product">Wireless PS Handler</Link>
                       </td>
                       <td className="product-price" data-title="Price">
                         <span className="currency-symbol">$</span>124.00
@@ -206,12 +206,12 @@ const Cart = () => {
                         </tbody>
                       </table>
                     </div>
-                    <a
-                      href="checkout.html"
+                    <Link
+                      to="/Checkout"
                       className="axil-btn btn-bg-primary checkout-btn"
                     >
                       Process to Checkout
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

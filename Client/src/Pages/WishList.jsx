@@ -37,7 +37,7 @@ const WishList = () => {
                       </a>
                     </td>
                     <td className="product-thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           src="./assets/images/product/electric/product-01.png"
                           alt="Digital Product"
@@ -45,7 +45,7 @@ const WishList = () => {
                       </Link>
                     </td>
                     <td className="product-title">
-                      <Link to="/SingleProduct">Wireless PS Handler</Link>
+                      <Link to="/Product">Wireless PS Handler</Link>
                     </td>
                     <td className="product-price" data-title="Price">
                       <span className="currency-symbol">$</span>124.00

@@ -9,7 +9,7 @@ const Products = () => {
       <div className="col-xl-3 col-lg-4 col-sm-6" key={product.id}>
         <div className="axil-product product-style-one has-color-pick mt--40">
           <div className="thumbnail">
-            <Link to="/SingleProduct">
+            <Link to="/Product">
               <img src={product.img} alt="Product Images" />
             </Link>
             {!product.badget ? null : (
@@ -43,7 +43,7 @@ const Products = () => {
           <div className="product-content">
             <div className="inner">
               <h5 className="title">
-                <Link to="/SingleProduct">{product.title}</Link>
+                <Link to="/Product">{product.title}</Link>
               </h5>
               <div className="product-price-variant">
                 <span className="price current-price">

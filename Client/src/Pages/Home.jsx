@@ -138,7 +138,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="100"
@@ -162,7 +162,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">Media Remote</Link>
+                        <Link to="/Product">Media Remote</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$29.99</span>
@@ -182,7 +182,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="200"
@@ -206,7 +206,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">HD Camera</Link>
+                        <Link to="/Product">HD Camera</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$49.99</span>
@@ -225,7 +225,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="300"
@@ -249,7 +249,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">Gaming Controller</Link>
+                        <Link to="/Product">Gaming Controller</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$50.00</span>
@@ -268,7 +268,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="400"
@@ -292,7 +292,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">Wall Mount </Link>
+                        <Link to="/Product">Wall Mount </Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$19.00</span>
@@ -311,7 +311,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="500"
@@ -335,7 +335,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">Lenevo Laptop</Link>
+                        <Link to="/Product">Lenevo Laptop</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$999.99</span>
@@ -354,7 +354,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="600"
@@ -378,7 +378,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">Juice Grinder Machine</Link>
+                        <Link to="/Product">Juice Grinder Machine</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$99.00</span>
@@ -397,7 +397,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="400"
@@ -421,7 +421,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">Wireless Headphone</Link>
+                        <Link to="/Product">Wireless Headphone</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$59.99</span>
@@ -440,7 +440,7 @@ const Home = () => {
                 <div className="col">
                   <div className="axil-product-list">
                     <div className="thumbnail">
-                      <Link to="/SingleProduct">
+                      <Link to="/Product">
                         <img
                           data-sal="zoom-in"
                           data-sal-delay="500"
@@ -464,7 +464,7 @@ const Home = () => {
                         </span>
                       </div>
                       <h6 className="product-title">
-                        <Link to="/SingleProduct">Asus Zenbook Laptop</Link>
+                        <Link to="/Product">Asus Zenbook Laptop</Link>
                       </h6>
                       <div className="product-price-variant">
                         <span className="price current-price">$899.00</span>

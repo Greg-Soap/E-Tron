@@ -633,7 +633,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-01.png"
                         alt="Product Images"
@@ -667,7 +667,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">3D™ wireless headset</Link>
+                        <Link to="/Product">3D™ wireless headset</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$30</span>
@@ -700,7 +700,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-02.png"
                         alt="Product Images"
@@ -734,7 +734,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">Media remote</Link>
+                        <Link to="/Product">Media remote</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$80</span>
@@ -767,7 +767,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-03.png"
                         alt="Product Images"
@@ -801,7 +801,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">HD camera</Link>
+                        <Link to="/Product">HD camera</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$60</span>
@@ -834,7 +834,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-04.png"
                         alt="Product Images"
@@ -868,7 +868,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">PS Remote Control</Link>
+                        <Link to="/Product">PS Remote Control</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$70</span>
@@ -901,7 +901,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-05.png"
                         alt="Product Images"
@@ -935,7 +935,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">PS Remote Control</Link>
+                        <Link to="/Product">PS Remote Control</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$50</span>
@@ -968,7 +968,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-03.png"
                         alt="Product Images"
@@ -1002,7 +1002,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">HD camera</Link>
+                        <Link to="/Product">HD camera</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$60</span>
@@ -1035,7 +1035,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-04.png"
                         alt="Product Images"
@@ -1069,7 +1069,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">PS Remote Control</Link>
+                        <Link to="/Product">PS Remote Control</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$70</span>
@@ -1101,7 +1101,7 @@ const CheckOut = () => {
               <div className="slick-single-layout">
                 <div className="axil-product">
                   <div className="thumbnail">
-                    <Link to="/SingleProduct">
+                    <Link to="/Product">
                       <img
                         src="./assets/images/product/electric/product-05.png"
                         alt="Product Images"
@@ -1135,7 +1135,7 @@ const CheckOut = () => {
                   <div className="product-content">
                     <div className="inner">
                       <h5 className="title">
-                        <Link to="/SingleProduct">PS5 Remote Control</Link>
+                        <Link to="/Product">PS5 Remote Control</Link>
                       </h5>
                       <div className="product-price-variant">
                         <span className="price old-price">$50</span>

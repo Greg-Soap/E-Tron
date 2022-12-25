@@ -11,7 +11,12 @@ import "./assets/css/vendor/magnific-popup.css";
 import "./assets/css/vendor/base.css";
 import "./assets/css/style.min.css";
 //
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 //
 import Home from "./Pages/Home";
 import SignIn from "./Pages/SignIn";
@@ -29,19 +34,29 @@ import ForgotPassword from "./Pages/ForgotPassword";
 import ResetPassword from "./Pages/ResetPassword";
 import ErrorPage from "./Pages/ErrorPage";
 const App = () => {
+  const user = false;
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/Shop" element={<Shop />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Account" element={<Account />} />
+        <Route
+          path="/Account"
+          element={user ? <Account /> : <Navigate to="/Login" />}
+        />
         <Route path="/Cart" element={<Cart />} />
-        <Route path="/Checkout" element={<CheckOut />} />
-        <Route path="/Wishlist" element={<WishList />} />
+        <Route
+          path="/Checkout"
+          element={user ? <CheckOut /> : <Navigate to="/Login" />}
+        />
+        <Route
+          path="/Wishlist"
+          element={user ? <WishList /> : <Navigate to="/Login" />}
+        />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-        <Route path="/SingleProduct" element={<SingleProduct />} />
+        <Route path="/Product/:id" element={<SingleProduct />} />
         <Route path="/Login" element={<SignIn />} />
         <Route path="/Register" element={<SignUp />} />
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
