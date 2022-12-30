@@ -34,7 +34,7 @@ import ForgotPassword from "./Pages/ForgotPassword";
 import ResetPassword from "./Pages/ResetPassword";
 import ErrorPage from "./Pages/ErrorPage";
 const App = () => {
-  const user = false;
+  const user = true;
   return (
     <Router>
       <Routes>
