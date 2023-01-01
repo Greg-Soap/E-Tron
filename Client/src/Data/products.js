@@ -5,6 +5,7 @@ const products = [
     current_price: "$30",
     old_price: "$30",
     badget: "20% OFF",
+    cat: "Pc Gaming",
     img: "./assets/images/product/electric/product-01.png",
   },
   {
@@ -12,6 +13,7 @@ const products = [
     title: "Media remote",
     current_price: "$40",
     old_price: "$50",
+    cat: "Computers",
     img: "./assets/images/product/electric/product-02.png",
   },
   {
@@ -20,6 +22,7 @@ const products = [
     current_price: "$45",
     old_price: "$60",
     badget: "30% OFF",
+    cat: "Pc Gaming",
     img: "./assets/images/product/electric/product-03.png",
   },
   {
@@ -27,6 +30,7 @@ const products = [
     title: "Guys Bomber Jacket",
     current_price: "$70",
     old_price: "$100",
+    cat: "Phones",
     img: "./assets/images/product/electric/product-04.png",
   },
   {
@@ -34,6 +38,7 @@ const products = [
     title: "Level 20 RGB Cherry",
     current_price: "$38",
     old_price: "$50",
+    cat: "Pc Gaming",
     img: "./assets/images/product/electric/product-05.png",
     badget: "15% OFF",
   },
@@ -42,6 +47,7 @@ const products = [
     title: "Level 20 RGB Cherry",
     current_price: "$25",
     old_price: "$40",
+    cat: "Pc Gaming",
     img: "./assets/images/product/electric/product-06.png",
   },
   {
@@ -50,6 +56,7 @@ const products = [
     current_price: "$15",
     old_price: "$20",
     badget: "5% OFF",
+    cat: "Laptops",
     img: "./assets/images/product/electric/product-07.png",
   },
   {
@@ -57,6 +64,7 @@ const products = [
     title: "Bass Meets Clarity",
     current_price: "$60",
     old_price: "$80",
+    cat: "Computers",
     img: "./assets/images/product/electric/product-08.png",
   },
   {
@@ -65,6 +73,7 @@ const products = [
     current_price: "$30",
     old_price: "$30",
     badget: "20% OFF",
+    cat: "Laptops",
     img: "./assets/images/product/electric/product-09.png",
   },
   {
@@ -72,6 +81,7 @@ const products = [
     title: "MX Master 3",
     current_price: "$40",
     old_price: "$50",
+    cat: "Pc Gaming",
     img: "./assets/images/product/electric/product-10.png",
   },
   {
@@ -79,6 +89,7 @@ const products = [
     title: "Zone Headphone",
     current_price: "$45",
     old_price: "$60",
+    cat: "Pc Gaming",
     badget: "30% OFF",
     img: "./assets/images/product/electric/product-11.png",
   },
@@ -87,6 +98,7 @@ const products = [
     title: "Mice Logitech",
     current_price: "$70",
     old_price: "$100",
+    cat: "Laptop",
     img: "./assets/images/product/electric/product-12.png",
   },
 ];

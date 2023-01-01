@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Footer } from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import { Link } from "react-router-dom";
@@ -6,6 +6,15 @@ import ServiceArea from "../Components/ServiceArea";
 import Products from "./Products";
 
 const Shop = () => {
+  const [filters, setFilters] = useState({ cat: "Pc gaming" });
+  const [sort, setSort] = useState("latest");
+  const handleFilter = (e) => {
+    const value = e.target.value;
+    setFilters({
+      ...filters,
+      [e.target.name]: value,
+    });
+  };
   return (
     <>
       <Navbar />
@@ -51,15 +60,23 @@ const Shop = () => {
                   <div className="row">
                     <div className="col-lg-9">
                       <div className="category-select">
-                        <select className="single-select">
+                        <select
+                          name="cat"
+                          onChange={handleFilter}
+                          className="single-select"
+                        >
                           <option>Categories</option>
-                          <option>Fashion</option>
-                          <option>Electronics</option>
-                          <option>Furniture</option>
-                          <option>Beauty</option>
+                          <option>Phones</option>
+                          <option>Computers</option>
+                          <option>Laptops</option>
+                          <option>Pc Gaming</option>
                         </select>
 
-                        <select className="single-select">
+                        <select
+                          name="color"
+                          onChange={handleFilter}
+                          className="single-select"
+                        >
                           <option>Color</option>
                           <option>Red</option>
                           <option>Blue</option>
@@ -67,7 +84,11 @@ const Shop = () => {
                           <option>Pink</option>
                         </select>
 
-                        <select className="single-select">
+                        <select
+                          name="priceRange"
+                          onChange={handleFilter}
+                          className="single-select"
+                        >
                           <option>Price Range</option>
                           <option>0 - 100</option>
                           <option>100 - 500</option>
@@ -78,11 +99,14 @@ const Shop = () => {
                     </div>
                     <div className="col-lg-3">
                       <div className="category-select mt_md--10 mt_sm--10 justify-content-lg-end">
-                        <select className="single-select">
-                          <option>Sort by Latest</option>
-                          <option>Sort by Name</option>
-                          <option>Sort by Price</option>
-                          <option>Sort by Viewed</option>
+                        <select
+                          onChange={(e) => setSort(e.target.value)}
+                          className="single-select"
+                        >
+                          <option value="latest">Sort by Latest</option>
+                          <option value="name">Sort by Name</option>
+                          <option value="price">Sort by Price</option>
+                          <option value="viewed">Sort by Viewed</option>
                         </select>
                       </div>
                     </div>
@@ -91,12 +115,15 @@ const Shop = () => {
               </div>
             </div>
             <div className="row row--15">
-              <Products />
+              <Products filters={filters} sort={sort} />
             </div>
             <div className="text-center pt--30">
-              <a href="#" className="axil-btn btn-bg-lighter btn-load-more">
+              <button
+                style={{ width: "fit-content" }}
+                className="axil-btn btn-bg-lighter btn-load-more"
+              >
                 Load more
-              </a>
+              </button>
             </div>
           </div>
         </div>
