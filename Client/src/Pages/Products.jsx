@@ -1,9 +1,25 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import products from "../Data/products";
+import axios from "axios";
 
-const Products = () => {
+const Products = ({ filters, sort }) => {
   const [Products] = useState(products);
+  console.log(products);
+  let cat = filters.cat;
+  console.log(cat);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  useEffect(() => {
+    const getProducts = async () => {
+      try {
+        const res = await axios.get("https://dummyjson.com/products");
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getProducts();
+  }, []);
   return Products.map((product) => {
     return (
       <div className="col-xl-3 col-lg-4 col-sm-6" key={product.id}>
@@ -27,15 +43,6 @@ const Products = () => {
                 </li>
                 <li className="select-option">
                   <Link to="/Cart">Add to Cart</Link>
-                </li>
-                <li className="quickview">
-                  <a
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#quick-view-modal"
-                  >
-                    <i className="far fa-eye"></i>
-                  </a>
                 </li>
               </ul>
             </div>

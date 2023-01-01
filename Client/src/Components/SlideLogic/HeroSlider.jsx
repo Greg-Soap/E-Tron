@@ -1,6 +1,53 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 export const HeroSlider = () => {
+  const HeroSlides = [
+    {
+      id: 1,
+      title: "Roco Wireless Headphone",
+      ProductImg: "./assets/images/product/product-38.png",
+      price: "$49.00",
+      img1: "./assets/images/others/author1.png",
+      img2: "./assets/images/others/author2.png",
+      img3: "./assets/images/others/author3.png",
+      img4: "./assets/images/others/author4.png",
+      review: "3467",
+    },
+    {
+      id: 2,
+      title: "Smart Digital Watch",
+      ProductImg: "./assets/images/product/product-39.png",
+      price: "$69.00",
+      img1: "./assets/images/others/author1.png",
+      img2: "./assets/images/others/author2.png",
+      img3: "./assets/images/others/author3.png",
+      img4: "./assets/images/others/author4.png",
+      review: "231",
+    },
+    {
+      id: 3,
+      title: "Roco Wireless Headphone",
+      ProductImg: "./assets/images/product/product-38.png",
+      price: "$59.00",
+      img1: "./assets/images/others/author1.png",
+      img2: "./assets/images/others/author2.png",
+      img3: "./assets/images/others/author3.png",
+      img4: "./assets/images/others/author4.png",
+      review: "22234",
+    },
+    {
+      id: 4,
+      title: "Smart Digital Watch",
+      ProductImg: "./assets/images/product/product-39.png",
+      price: "$899.00",
+      img1: "./assets/images/others/author1.png",
+      img2: "./assets/images/others/author2.png",
+      img3: "./assets/images/others/author3.png",
+      img4: "./assets/images/others/author4.png",
+      review: "56774",
+    },
+  ];
   const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
   const slider1 = useRef(null);
@@ -67,226 +114,53 @@ export const HeroSlider = () => {
                   fade={true}
                   autoplay={true}
                 >
-                  <div className="single-slide slick-slide">
-                    <span className="subtitle">
-                      <i className="fas fa-fire"></i> Hot Deal In This Week
-                    </span>
-                    <h1 className="title">Roco Wireless Headphone</h1>
-                    <div className="slide-action">
-                      <div className="shop-btn">
-                        <a href="shop.html" className="axil-btn btn-bg-white">
-                          <i className="fal fa-shopping-cart"></i>Shop Now
-                        </a>
-                      </div>
-                      <div className="item-rating">
-                        <div className="thumb">
-                          <ul>
-                            <li>
-                              <img
-                                src="./assets/images/others/author1.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author2.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author3.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author4.png"
-                                alt="Author"
-                              />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="content">
-                          <span className="rating-icon">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fal fa-star"></i>
-                          </span>
-                          <span className="review-text">
-                            <span>100+</span> Reviews
-                          </span>
+                  {HeroSlides.map((Slides) => {
+                    return (
+                      <div className="single-slide slick-slide" key={Slides.id}>
+                        <span className="subtitle">
+                          <i className="fas fa-fire"></i> Hot Deal In This Week
+                        </span>
+                        <h1 className="title">{Slides.title}</h1>
+                        <div className="slide-action">
+                          <div className="shop-btn">
+                            <Link to="/Shop" className="axil-btn btn-bg-white">
+                              <i className="fal fa-shopping-cart"></i>Shop Now
+                            </Link>
+                          </div>
+                          <div className="item-rating">
+                            <div className="thumb">
+                              <ul>
+                                <li>
+                                  <img src={Slides.img1} alt="Author" />
+                                </li>
+                                <li>
+                                  <img src={Slides.img2} alt="Author" />
+                                </li>
+                                <li>
+                                  <img src={Slides.img3} alt="Author" />
+                                </li>
+                                <li>
+                                  <img src={Slides.img4} alt="Author" />
+                                </li>
+                              </ul>
+                            </div>
+                            <div className="content">
+                              <span className="rating-icon">
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fas fa-star"></i>
+                                <i className="fal fa-star"></i>
+                              </span>
+                              <span className="review-text">
+                                <span>{Slides.review}</span> Reviews
+                              </span>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="single-slide slick-slide">
-                    <span className="subtitle">
-                      <i className="fas fa-fire"></i> Hot Deal In This Week
-                    </span>
-                    <h1 className="title">Smart Digital Watch</h1>
-                    <div className="slide-action">
-                      <div className="shop-btn">
-                        <a href="shop.html" className="axil-btn btn-bg-white">
-                          <i className="fal fa-shopping-cart"></i>Shop Now
-                        </a>
-                      </div>
-                      <div className="item-rating">
-                        <div className="thumb">
-                          <ul>
-                            <li>
-                              <img
-                                src="./assets/images/others/author1.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author2.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author3.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author4.png"
-                                alt="Author"
-                              />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="content">
-                          <span className="rating-icon">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fal fa-star"></i>
-                          </span>
-                          <span className="review-text">
-                            <span>100+</span> Reviews
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="single-slide slick-slide">
-                    <span className="subtitle">
-                      <i className="fas fa-fire"></i> Hot Deal In This Week
-                    </span>
-                    <h1 className="title">Roco Wireless Headphone</h1>
-                    <div className="slide-action">
-                      <div className="shop-btn">
-                        <a href="shop.html" className="axil-btn btn-bg-white">
-                          <i className="fal fa-shopping-cart"></i>Shop Now
-                        </a>
-                      </div>
-                      <div className="item-rating">
-                        <div className="thumb">
-                          <ul>
-                            <li>
-                              <img
-                                src="./assets/images/others/author1.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author2.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author3.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author4.png"
-                                alt="Author"
-                              />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="content">
-                          <span className="rating-icon">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fal fa-star"></i>
-                          </span>
-                          <span className="review-text">
-                            <span>100+</span> Reviews
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="single-slide slick-slide">
-                    <span className="subtitle">
-                      <i className="fas fa-fire"></i> Hot Deal In This Week
-                    </span>
-                    <h1 className="title">Smart Digital Watch</h1>
-                    <div className="slide-action">
-                      <div className="shop-btn">
-                        <a href="shop.html" className="axil-btn btn-bg-white">
-                          <i className="fal fa-shopping-cart"></i>Shop Now
-                        </a>
-                      </div>
-                      <div className="item-rating">
-                        <div className="thumb">
-                          <ul>
-                            <li>
-                              <img
-                                src="./assets/images/others/author1.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author2.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author3.png"
-                                alt="Author"
-                              />
-                            </li>
-                            <li>
-                              <img
-                                src="./assets/images/others/author4.png"
-                                alt="Author"
-                              />
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="content">
-                          <span className="rating-icon">
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fas fa-star"></i>
-                            <i className="fal fa-star"></i>
-                          </span>
-                          <span className="review-text">
-                            <span>100+</span> Reviews
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    );
+                  })}
                 </Slider>
               </div>
             </div>
@@ -295,46 +169,17 @@ export const HeroSlider = () => {
             <div className="main-slider-large-thumb">
               <div className="slider-thumb-activation-one axil-slick-dots">
                 <Slider {...settings}>
-                  <div className="single-slide slick-slide">
-                    <img
-                      src="./assets/images/product/product-38.png"
-                      alt="Product"
-                    />
-                    <div className="product-price">
-                      <span className="text">From</span>
-                      <span className="price-amount">$49.00</span>
-                    </div>
-                  </div>
-                  <div className="single-slide slick-slide">
-                    <img
-                      src="./assets/images/product/product-39.png"
-                      alt="Product"
-                    />
-                    <div className="product-price">
-                      <span className="text">From</span>
-                      <span className="price-amount">$49.00</span>
-                    </div>
-                  </div>
-                  <div className="single-slide slick-slide">
-                    <img
-                      src="./assets/images/product/product-38.png"
-                      alt="Product"
-                    />
-                    <div className="product-price">
-                      <span className="text">From</span>
-                      <span className="price-amount">$49.00</span>
-                    </div>
-                  </div>
-                  <div className="single-slide slick-slide">
-                    <img
-                      src="./assets/images/product/product-39.png"
-                      alt="Product"
-                    />
-                    <div className="product-price">
-                      <span className="text">From</span>
-                      <span className="price-amount">$49.00</span>
-                    </div>
-                  </div>
+                  {HeroSlides.map((Slides) => {
+                    return (
+                      <div className="single-slide slick-slide">
+                        <img src={Slides.ProductImg} alt="Product" />
+                        <div className="product-price">
+                          <span className="text">From</span>
+                          <span className="price-amount">{Slides.price}</span>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </Slider>
               </div>
             </div>
