@@ -171,7 +171,7 @@ export const HeroSlider = () => {
                 <Slider {...settings}>
                   {HeroSlides.map((Slides) => {
                     return (
-                      <div className="single-slide slick-slide">
+                      <div className="single-slide slick-slide" key={Slides.id}>
                         <img src={Slides.ProductImg} alt="Product" />
                         <div className="product-price">
                           <span className="text">From</span>

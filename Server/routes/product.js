@@ -3,6 +3,11 @@ const { verifyTokenAndAdmin } = require("./verifyToken");
 
 const router = require("express").Router();
 
+router.get("/", async (req, res) => {
+  let products;
+  products = await Product.find();
+  res.status(200).json(products);
+});
 //CREATE
 
 router.post("/", verifyTokenAndAdmin, async (req, res) => {

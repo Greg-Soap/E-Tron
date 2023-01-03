@@ -6,7 +6,7 @@ import ServiceArea from "../Components/ServiceArea";
 import Products from "./Products";
 
 const Shop = () => {
-  const [filters, setFilters] = useState({ cat: "Pc gaming" });
+  const [filters, setFilters] = useState({});
   const [sort, setSort] = useState("latest");
   const handleFilter = (e) => {
     const value = e.target.value;
