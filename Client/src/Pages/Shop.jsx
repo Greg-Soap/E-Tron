@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { Footer } from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import { Link } from "react-router-dom";
 import ServiceArea from "../Components/ServiceArea";
 import Products from "./Products";
+import { useGlobalContext } from "../Context/Context";
 
 const Shop = () => {
-  const [filters, setFilters] = useState({});
-  const [sort, setSort] = useState("latest");
+  const { filters, setFilters, setSort } = useGlobalContext();
+
   const handleFilter = (e) => {
     const value = e.target.value;
     setFilters({
@@ -15,6 +16,7 @@ const Shop = () => {
       [e.target.name]: value,
     });
   };
+
   return (
     <>
       <Navbar />
@@ -65,7 +67,8 @@ const Shop = () => {
                           onChange={handleFilter}
                           className="single-select"
                         >
-                          <option>Categories</option>
+                          <option disabled>Categories</option>
+                          <option>all</option>
                           <option>Phones</option>
                           <option>Computers</option>
                           <option>Laptops</option>
@@ -77,7 +80,7 @@ const Shop = () => {
                           onChange={handleFilter}
                           className="single-select"
                         >
-                          <option>Color</option>
+                          <option disabled>Color</option>
                           <option>Red</option>
                           <option>Blue</option>
                           <option>Green</option>
@@ -89,7 +92,7 @@ const Shop = () => {
                           onChange={handleFilter}
                           className="single-select"
                         >
-                          <option>Price Range</option>
+                          <option disabled>Price Range</option>
                           <option>0 - 100</option>
                           <option>100 - 500</option>
                           <option>500 - 1000</option>
@@ -115,7 +118,7 @@ const Shop = () => {
               </div>
             </div>
             <div className="row row--15">
-              <Products filters={filters} sort={sort} />
+              <Products />
             </div>
             <div className="text-center pt--30">
               <button

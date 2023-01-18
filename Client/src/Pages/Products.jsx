@@ -1,25 +1,10 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
+import { useGlobalContext } from "../Context/Context";
 
-const Products = ({ filters, sort }) => {
-  const [Products, setProducts] = useState([]);
-  const [filteredProducts, setFilteredProducts] = useState([]);
-  useEffect(() => {
-    const getProducts = async () => {
-      try {
-        const res = await axios.get("https://localhost:5000/api/products", {
-          mode: "cors",
-        });
-        console.log(res);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    getProducts();
-  }, []);
-  return Products.map((product) => {
+const Products = () => {
+  const { filteredProducts } = useGlobalContext();
+  return filteredProducts.map((product) => {
     return (
       <div className="col-xl-3 col-lg-4 col-sm-6" key={product._id}>
         <div className="axil-product product-style-one has-color-pick mt--40">

@@ -3,11 +3,6 @@ const { verifyTokenAndAdmin } = require("./verifyToken");
 
 const router = require("express").Router();
 
-router.get("/", async (req, res) => {
-  let products;
-  products = await Product.find();
-  res.status(200).json(products);
-});
 //CREATE
 
 router.post("/", verifyTokenAndAdmin, async (req, res) => {
@@ -63,15 +58,12 @@ router.get("/", async (req, res) => {
   const qCategory = req.query.category;
   try {
     let products;
-
     if (qNew) {
       products = await Product.find().sort({ createdAt: -1 }).limit(1);
     } else if (qCategory) {
-      products = await Product.find({
-        categories: {
-          $in: [qCategory],
-        },
-      });
+      //Commented code is the correct way where the products will be in an array form that has "all" for every product
+      products = await Product.find({ cat: { $in: [qCategory] } });
+      // products = await Product.find({ cat: qCategory });
     } else {
       products = await Product.find();
     }
